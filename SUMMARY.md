@@ -16,7 +16,7 @@
   * [中继](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/zhong-ji.md)
     * [查询中继列表](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/zhong-ji/cha-xun-zhong-ji-lie-biao.md)
   * [IVR](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/ivr.md)
-    * 查询单个或多个IVR
+    * [查询单个或多个IVR](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/ivr/cha-xun-dan-ge-huo-duo-ge-ivr.md)
     * 配置单个IVR
   * [队列](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/dui-lie.md)
     * 查询单个或多个队列
