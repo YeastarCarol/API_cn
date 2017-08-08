@@ -1,12 +1,10 @@
-
-
-# 查询中继列表
+* [ ] # 查询中继列表
 
 通过本接口可查询所有中继的基本信息，如：中继名、中继状态、中继类型等。
 
 **请求方式：**POST
 
-**请求地址：**https://192.168.5.150:8088/api/v1.0.0/trunklist/query?token=7d20390952e15eb72b0a1df7172de65c
+**请求地址：**[https://192.168.5.150:8088/api/v1.0.0/trunklist/query?token=7d20390952e15eb72b0a1df7172de65c](https://192.168.5.150:8088/api/v1.0.0/trunklist/query?token=7d20390952e15eb72b0a1df7172de65c)
 
 **请求参数说明：**
 
@@ -20,7 +18,7 @@
 
 | 参数名称 | 类型 | 参数说明 | 参数值举例 |
 | :--- | :--- | :--- | :--- |
-|  | **&lt;trunklist&gt;** | Object | 中继对象 |
+| **&lt;trunklist&gt;** | Object | 中继对象 |  |
 | **&lt;trunkname&gt;** | string | 中继名 | Sip trunk test |
 | **&lt;status&gt;** | string | 中继当前状态 | Idle |
 | **&lt;type&gt;** | string | 中继类型 | SIP-Register, PSTN |
@@ -30,9 +28,9 @@
 
 **附：各类型中继可能的状态**
 
-| FXO中继 | BRI/E1/T1/J1 | GSM/~~CDMA/~~UMTS | SIP/IAX |
+| FXO中继 | BRI/E1/T1/J1 | GSM/CDMA/UMTS | SIP/IAX |
 | :--- | :--- | :--- | :--- |
-| 1.fault2.idle3.busy | 1.fault2.alarm3.down4.up | 1.poweroff2.alarm3.nosim4.nosignal5.pinerror6.unregister7.busy8.其余:idle三个信号强度signal ≥ 2010 ≤ signal &lt; 20signal &lt; 10 | 1.registering2.failure3.registered \(unmonitored\)4.disable5.unknown |
+| 1.fault2.idle3.busy | 1.fault2.alarm3.down4.up |  1.poweroff                           2.alarm                                  3.nosim                                  4.nosignal                              5.pinerror                             6.unregister                         7.busy                                  8.其余:idle                          三个信号强度signal ≥ 2010 ≤ signal &lt; 20signal &lt; 10 |  1.registering                         2.failure                               3.registered \(unmonitored\) 4.disable                              5.unknown |
 
 
 
