@@ -14,7 +14,7 @@
     * [查询单个或多个分机信息](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/fen-ji/cha-xun-dan-ge-huo-duo-ge-fen-ji-xin-xi.md)
     * [配置分机](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/fen-ji/pei-zhi-fen-ji.md)
   * [中继](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/zhong-ji.md)
-    * 查询中继列表
+    * [查询中继列表](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/zhong-ji/cha-xun-zhong-ji-lie-biao.md)
   * [IVR](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/ivr.md)
     * 查询单个或多个IVR
     * 配置单个IVR
