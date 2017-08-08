@@ -19,7 +19,7 @@
     * [查询单个或多个IVR](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/ivr/cha-xun-dan-ge-huo-duo-ge-ivr.md)
     * [配置单个IVR](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/ivr/pei-zhi-dan-ge-ivr.md)
   * [队列](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/dui-lie.md)
-    * 查询单个或多个队列
+    * [查询单个或多个队列](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/dui-lie/cha-xun-dan-ge-huo-duo-ge-dui-lie.md)
     * 配置单个队列
   * [通话](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/tong-hua.md)
     * 查询来电
