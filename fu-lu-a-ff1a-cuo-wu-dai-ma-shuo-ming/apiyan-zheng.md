@@ -1,0 +1,74 @@
+# API验证
+
+## 登录
+
+S系列IPPBX API采用用户名和密码的方式验证，只有用户名和密码验证通过的应用服务器，API才会处理其发送的请求。
+
+注：密码需用户自己使用MD5加密之后进行验证。如果密码连续错误五次，则账户将会被锁10分钟。
+
+请求方式：POST
+
+请求地址：https://192.168.5.150:8088/api/v1.0.0/login
+
+请求示例：
+
+{"username": "api","password": "2d7257a528679d01a19c70e3fa773620","port": "8260"}
+
+请求参数说明：
+
+| 参数名称 | 类型 | 参数说明 | 参数值举例 |
+| :--- | :--- | :--- | :--- |
+| &lt;username&gt; | string | API用户名 | API\_Admin |
+| &lt;password&gt; | string | 密码 | MD5加密之后的密码 |
+| &lt;port&gt; | string | 端口，此端口为第三方应用用于监听API发送的事件报告的端口。 | 0&lt;port&lt;65536 |
+| \[url\] | string | API应用方的URL。 |  |
+
+响应示例：
+
+{"status":"Success","token":"48a7d7481a5355aa4fb5dc285edeb40e"}
+
+响应参数说明：
+
+| 参数名称 | 类型 | 参数说明 | 参数值举例&lt;status&gt; |
+| :--- | :--- | :--- | :--- |
+| &lt;status&gt; | string | 请求状态 | Success，Failure |
+| &lt;token&gt; | string | 调用接口凭证，之后所有的请求都需用到该凭证。 | 1ec8bde364f8e37c0dd14f476fba114c |
+
+注：之后所有请求中所带的token都为登录时所返回的token。
+
+可能出现的错误码：20003
+
+## 心跳包 
+
+S系列IPPBX API采用心跳包可以对IP, port, url进行更新。同时更新token避免在1800s超时后被清除，造成事件不会上报。
+
+请求方式：POST
+
+请求地址：https://192.168.5.150:8088/api/v1.0.0/heartbeat?token=48a7d7481a5355aa4fb5dc285edeb40e
+
+请求示例：
+
+{"ipaddr": "192.168.5.100","port": "8260","url":"1112121212"}
+
+请求参数说明：
+
+| 参数名称 | 类型 | 参数说明 | 参数值举例 |
+| :--- | :--- | :--- | :--- |
+| &lt;ipaddr&gt; | string | IP地址 | 192.168.5.100 |
+| &lt;port&gt; | string | 端口，此端口为第三方应用用于监听API发送的事件报告的端口。 | 0&lt;port&lt;65536 |
+| \[url\] | string | API应用方的URL | 		 |
+
+## 退出登录
+
+请求方式：POST
+
+请求示例：
+
+https://192.168.5.150:8088/api/v1.0.0/logout?token=48a7d7481a5355aa4fb5dc285edeb40e 
+
+响应示例：
+
+{"status":"Success"}
+
+
+

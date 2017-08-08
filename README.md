@@ -1,3 +1,12 @@
-# My Awesome Book
+# 关于本指南
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+本指南介绍朗视S系列IPPBX的API接口及如何通过API接口连接S系列IPPBX和第三方软件。
+
+**软件版本**
+
+朗视S系列IPPBX固件30.5.0.X版本及以上版本。
+
+**读者对象**
+
+本文适用于第三方开发软件人员。
+

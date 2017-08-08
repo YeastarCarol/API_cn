@@ -1,3 +1,77 @@
-# Table of content
+# Summary
 
-* [First Chapter](chapter1.md)
+* [关于本指南](README.md)
+* [二次开发接口简介](chapter1.md)
+  * [交互方式说明](chapter1/jiao-hu-fang-shi-shuo-ming.md)
+  * [S系列API和AMI接口说明](chapter1/sxi-lie-api-he-ami-jie-kou-shuo-ming.md)
+  * [启用S系列IPPBX API功能](chapter1/qi-yong-s-xi-lie-ippbx-api.md)
+* [API接口示例](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming.md)
+  * [API验证](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/apiyan-zheng.md)
+  * [系统](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/xi-tong.md)
+    * 查询设备信息
+  * [分机](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/fen-ji.md)
+    * 查询分机列表
+    * 查询单个或多个分机信息
+    * 配置分机
+  * [中继](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/zhong-ji.md)
+    * 查询中继列表
+  * [IVR](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/ivr.md)
+    * 查询单个或多个IVR
+    * 配置单个IVR
+  * [队列](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/dui-lie.md)
+    * 查询单个或多个队列
+    * 配置单个队列
+  * [通话](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/tong-hua.md)
+    * 查询来电
+    * 查询去电
+    * 挂断分机（强拆）
+    * 挂断来电（强拆）
+    * 挂断去电（强拆）
+    * 通话保持
+    * 通话接回
+    * 静音指定分机
+    * 取消静音
+    * 普通监听
+    * 密语监听
+    * 强插监听
+    * 分机互拨
+    * 分机拨打外线
+    * 呼入转接分机
+    * 呼入转接IVR
+    * 呼入转呼出
+    * 呼出转接分机
+    * 呼出转接外线
+    * 呼出转接IVR
+    * 呼出转接IVR
+    * IVR拨打分机
+    * IVR拨打外线
+    * 双向外呼
+    * 呼入转接队列
+    * 呼入转接响铃组
+    * 来电受理
+  * 酒店叫醒服务
+    * 添加闹铃
+    * 查询闹铃
+    * 修改闹铃
+    * 删除闹铃
+    * 给分机播放提示音
+    * 给外线播放提示音
+  * [系统报告](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/xi-tong-bao-gao.md)
+    * 系统启动
+    * 系统配置变更
+    * 分机状态变更
+  * [通话报告](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/tong-hua-bao-gao.md)
+    * 响铃
+    * 回铃
+    * 呼叫应答
+    * 呼叫被应答
+    * 通话结束
+    * [通话转移](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/tong-hua-bao-gao/hu-jiao-zhuan-yi.md)
+    * [呼叫失败](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/tong-hua-bao-gao/hu-jiao-shi-bai.md)
+    * [来电呼叫请求](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/tong-hua-bao-gao/lai-dian-hu-jiao-qing-qiu.md)
+    * 来电呼入
+    * 按键信息
+    * CDR
+    * 提示音播放结束
+* 附录A：错误代码说明
+
