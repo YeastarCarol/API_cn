@@ -1,4 +1,4 @@
-* [ ] # 查询中继列表
+# 查询中继列表
 
 通过本接口可查询所有中继的基本信息，如：中继名、中继状态、中继类型等。
 
@@ -30,7 +30,7 @@
 
 | FXO中继 | BRI/E1/T1/J1 | GSM/CDMA/UMTS | SIP/IAX |
 | :--- | :--- | :--- | :--- |
-| 1.fault2.idle3.busy | 1.fault2.alarm3.down4.up |  1.poweroff                           2.alarm                                  3.nosim                                  4.nosignal                              5.pinerror                             6.unregister                         7.busy                                  8.其余:idle                          三个信号强度signal ≥ 2010 ≤ signal &lt; 20signal &lt; 10 |  1.registering                         2.failure                               3.registered \(unmonitored\) 4.disable                              5.unknown |
+| 1.fault2.idle3.busy | 1.fault2.alarm3.down4.up | 1.poweroff                           2.alarm                                  3.nosim                                  4.nosignal                              5.pinerror                             6.unregister                         7.busy                                  8.其余:idle                          三个信号强度signal ≥ 2010 ≤ signal &lt; 20signal &lt; 10 | 1.registering                         2.failure                               3.registered \(unmonitored\) 4.disable                              5.unknown |
 
 
 
