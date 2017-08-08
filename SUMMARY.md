@@ -22,7 +22,7 @@
     * [查询单个或多个队列](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/dui-lie/cha-xun-dan-ge-huo-duo-ge-dui-lie.md)
     * [配置单个队列](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/dui-lie/pei-zhi-dan-ge-dui-lie.md)
   * [通话](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/tong-hua.md)
-    * 查询来电
+    * [查询来电](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/tong-hua/cha-xun-lai-dian.md)
     * 查询去电
     * 挂断分机（强拆）
     * 挂断来电（强拆）
