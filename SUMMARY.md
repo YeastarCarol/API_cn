@@ -25,7 +25,7 @@
     * [查询来电](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/tong-hua/cha-xun-lai-dian.md)
     * [查询去电](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/tong-hua/cha-xun-qu-dian.md)
     * [挂断分机（强拆）](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/tong-hua/gua-duan-fen-ji-ff08-qiang-chai-ff09.md)
-    * 挂断来电（强拆）
+    * [挂断来电（强拆）](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/tong-hua/gua-duan-lai-dian-ff08-qiang-chai-ff09.md)
     * 挂断去电（强拆）
     * 通话保持
     * 通话接回
