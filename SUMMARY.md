@@ -7,12 +7,12 @@
   * [启用S系列IPPBX API功能](chapter1/qi-yong-s-xi-lie-ippbx-api.md)
 * [API接口示例](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming.md)
   * [API验证](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/apiyan-zheng.md)
-  * [系统](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/xi-tong.md)
-    * 查询设备信息
   * [分机](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/fen-ji.md)
-    * 查询分机列表
-    * 查询单个或多个分机信息
-    * 配置分机
+    * [查询分机列表](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/fen-ji/cha-xun-fen-ji-lie-biao.md)
+    * [查询单个或多个分机信息](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/fen-ji/cha-xun-dan-ge-huo-duo-ge-fen-ji-xin-xi.md)
+    * [配置分机](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/fen-ji/pei-zhi-fen-ji.md)
+  * [系统](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/xi-tong.md)
+    * [查询设备信息](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/xi-tong/cha-xun-she-bei-xin-xi.md)
   * [中继](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/zhong-ji.md)
     * 查询中继列表
   * [IVR](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/ivr.md)
