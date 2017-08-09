@@ -71,6 +71,6 @@
     * [来电呼入](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/tong-hua-bao-gao/lai-dian-hu-ru.md)
     * [按键信息](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/tong-hua-bao-gao/an-jian-xin-xi.md)
     * [CDR](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/tong-hua-bao-gao/cdr.md)
-    * 提示音播放结束
+    * [提示音播放结束](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/tong-hua-bao-gao/ti-shi-yin-bo-fang-jie-shu.md)
 * 附录A：错误代码说明
 
