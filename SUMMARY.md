@@ -61,7 +61,7 @@
     * [分机状态变更](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/xi-tong-bao-gao/fen-ji-zhuang-tai-bian-geng.md)
   * [通话报告](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/tong-hua-bao-gao.md)
     * [响铃](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/tong-hua-bao-gao/xiang-ling.md)
-    * 回铃
+    * [回铃](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/tong-hua-bao-gao/hui-ling.md)
     * 呼叫应答
     * 呼叫被应答
     * 通话结束
