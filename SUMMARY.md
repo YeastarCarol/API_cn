@@ -50,7 +50,7 @@
     * [来电受理](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/tong-hua/lai-dian-shou-li.md)
   * [酒店叫醒服务](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/jiu-dian-jiao-xing-fu-wu.md)
     * [添加闹铃](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/jiu-dian-jiao-xing-fu-wu/tian-jia-nao-ling.md)
-    * 查询闹铃
+    * [查询闹铃](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/jiu-dian-jiao-xing-fu-wu/cha-xun-nao-ling.md)
     * 修改闹铃
     * 删除闹铃
     * 给分机播放提示音
