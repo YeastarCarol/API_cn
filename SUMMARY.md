@@ -31,7 +31,7 @@
     * [通话接回](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/tong-hua/tong-hua-jie-hui.md)
     * [静音指定分机](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/tong-hua/jing-yin-zhi-ding-fen-ji.md)
     * [取消静音](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/tong-hua/qu-xiao-jing-yin.md)
-    * 普通监听
+    * [普通监听](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/tong-hua/pu-tong-jian-ting.md)
     * 密语监听
     * 强插监听
     * 分机互拨
