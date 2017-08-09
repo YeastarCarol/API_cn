@@ -68,7 +68,7 @@
     * [通话转移](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/tong-hua-bao-gao/hu-jiao-zhuan-yi.md)
     * [呼叫失败](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/tong-hua-bao-gao/hu-jiao-shi-bai.md)
     * [来电呼叫请求](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/tong-hua-bao-gao/lai-dian-hu-jiao-qing-qiu.md)
-    * 来电呼入
+    * [来电呼入](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/tong-hua-bao-gao/lai-dian-hu-ru.md)
     * 按键信息
     * CDR
     * 提示音播放结束
