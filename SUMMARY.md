@@ -35,7 +35,7 @@
     * [密语监听](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/tong-hua/mi-yu-jian-ting.md)
     * [强插监听](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/tong-hua/qiang-cha-jian-ting.md)
     * [分机互拨](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/tong-hua/fen-ji-hu-bo.md)
-    * 分机拨打外线
+    * [分机拨打外线](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/tong-hua/fen-ji-bo-da-wai-xian.md)
     * 呼入转接分机
     * 呼入转接IVR
     * 呼入转呼出
