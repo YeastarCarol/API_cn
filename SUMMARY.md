@@ -46,7 +46,7 @@
     * [IVR拨打外线](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/tong-hua/ivrbo-da-wai-xian.md)
     * [双向外呼](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/tong-hua/shuang-xiang-wai-hu.md)
     * [呼入转接队列](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/tong-hua/hu-ru-zhuan-jie-dui-lie.md)
-    * 呼入转接响铃组
+    * [呼入转接响铃组](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/tong-hua/hu-ru-zhuan-jie-xiang-ling-zu.md)
     * 来电受理
   * 酒店叫醒服务
     * 添加闹铃
