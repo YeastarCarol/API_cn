@@ -62,8 +62,8 @@
   * [通话报告](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/tong-hua-bao-gao.md)
     * [响铃](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/tong-hua-bao-gao/xiang-ling.md)
     * [回铃](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/tong-hua-bao-gao/hui-ling.md)
-    * 呼叫应答
-    * 呼叫被应答
+    * [呼叫应答](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/tong-hua-bao-gao/hu-jiao-ying-da.md)
+    * [呼叫被应答](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/tong-hua-bao-gao/hu-jiao-bei-ying-da.md)
     * 通话结束
     * [通话转移](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/tong-hua-bao-gao/hu-jiao-zhuan-yi.md)
     * [呼叫失败](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/tong-hua-bao-gao/hu-jiao-shi-bai.md)
