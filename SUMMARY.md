@@ -54,7 +54,7 @@
     * [修改闹铃](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/jiu-dian-jiao-xing-fu-wu/xiu-gai-nao-ling.md)
     * [删除闹铃](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/jiu-dian-jiao-xing-fu-wu/shan-chu-nao-ling.md)
     * [给分机播放提示音](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/jiu-dian-jiao-xing-fu-wu/gei-fen-ji-bo-fang-ti-shi-yin.md)
-    * 给外线播放提示音
+    * [给外线播放提示音](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/jiu-dian-jiao-xing-fu-wu/gei-wai-xian-bo-fang-ti-shi-yin.md)
   * [系统报告](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/xi-tong-bao-gao.md)
     * 系统启动
     * 系统配置变更
