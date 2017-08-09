@@ -33,7 +33,7 @@
     * [取消静音](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/tong-hua/qu-xiao-jing-yin.md)
     * [普通监听](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/tong-hua/pu-tong-jian-ting.md)
     * [密语监听](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/tong-hua/mi-yu-jian-ting.md)
-    * 强插监听
+    * [强插监听](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/tong-hua/qiang-cha-jian-ting.md)
     * 分机互拨
     * 分机拨打外线
     * 呼入转接分机
