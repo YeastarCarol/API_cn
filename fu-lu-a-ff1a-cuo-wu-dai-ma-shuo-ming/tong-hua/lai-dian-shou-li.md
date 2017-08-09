@@ -1,5 +1,3 @@
-
-
 # 来电受理
 
 如果中继的API功能开关配置为来电接听控制模式INVITE事件时，则每当有电话呼叫该中继，PBX就会将用于描述该事件的API报告消息------推送给应用服务器，并等待应用服务器在规定时间（默认10秒）内对该来电进行控制。**应用服务器可以对外线来电进行如下类型的控制：**
@@ -18,7 +16,7 @@
 
 **1.Accept：**
 
-https://192.168.5.150:8088/api/v1.0.0/inbound/accept?token=15bc7e4a0934023e79a557e15ff1f69e
+[https://192.168.5.150:8088/api/v1.0.0/inbound/accept?token=15bc7e4a0934023e79a557e15ff1f69e](https://192.168.5.150:8088/api/v1.0.0/inbound/accept?token=15bc7e4a0934023e79a557e15ff1f69e)
 
 **2.refuse：**
 
@@ -45,6 +43,4 @@ https://192.168.5.150:8088 /api/v1.0.0/inbound/refuse?token=15bc7e4a0934023e79a5
 | **&lt;accept&gt;** | String | 来电受理结果 | Success或者Failed |
 
 **可能出现的错误码：**10004，10007，30001
-
-
 
