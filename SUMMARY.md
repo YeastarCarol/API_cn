@@ -38,7 +38,7 @@
     * [分机拨打外线](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/tong-hua/fen-ji-bo-da-wai-xian.md)
     * [呼入转接分机](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/tong-hua/hu-ru-zhuan-jie-fen-ji.md)
     * [呼入转接IVR](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/tong-hua/hu-ru-zhuan-jie-ivr.md)
-    * 呼入转呼出
+    * [呼入转呼出](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/tong-hua/hu-ru-zhuan-hu-chu.md)
     * 呼出转接分机
     * 呼出转接外线
     * 呼出转接IVR
