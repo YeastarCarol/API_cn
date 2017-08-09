@@ -1,12 +1,10 @@
-
-
 # 查询单个或多个队列
 
 通过本接口可以查询单个或多个队列详细信息，如：队列号码，队列名称，静态坐席，动态坐席等。多个查询的时，查询参数用逗号隔开。
 
 **请求方式：**POST
 
-**请求地址：**https://192.168.5.150:8088/api/v1.0.0/queue/query?token=6cad9cee6e2ad94570636e7b3690aeb2
+**请求地址：**[https://192.168.5.150:8088/api/v1.0.0/queue/query?token=6cad9cee6e2ad94570636e7b3690aeb2](https://192.168.5.150:8088/api/v1.0.0/queue/query?token=6cad9cee6e2ad94570636e7b3690aeb2)
 
 **请求示例：**
 
@@ -36,7 +34,7 @@
 | **&lt;password&gt;** | String | 加入动态坐席的密码 | 123456 |
 | **&lt;ringstrategy&gt;** | String | 响铃策略 | 全部响铃，线性响铃，顺序响铃，最近最少被叫响铃，最少接通响铃，随机响铃 |
 | **&lt;failoveraction&gt;** | String | 呼入失败目的地 | Hang up |
-| **\[agents\]** | string | 固定座席 | Apple-1000Lucia-1001 |
+| **\[agents\]** | string | 固定座席 | 1000，1001 |
 | **&lt;agenttimeout&gt;** | String | 坐席响铃时间 | 30 |
 | **&lt;agentannounce&gt;** | String | 坐席应答提示音 | \[None\] |
 | **&lt;wrapuptime&gt;** | Int | 休息时间 | 30 |
