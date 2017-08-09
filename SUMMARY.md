@@ -40,7 +40,7 @@
     * [呼入转接IVR](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/tong-hua/hu-ru-zhuan-jie-ivr.md)
     * [呼入转呼出](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/tong-hua/hu-ru-zhuan-hu-chu.md)
     * [呼出转接分机](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/tong-hua/hu-chu-zhuan-jie-fen-ji.md)
-    * 呼出转接外线
+    * [呼出转接外线](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/tong-hua/hu-chu-zhuan-jie-wai-xian.md)
     * 呼出转接IVR
     * 呼出转接IVR
     * IVR拨打分机
