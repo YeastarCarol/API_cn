@@ -57,7 +57,7 @@
     * [给外线播放提示音](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/jiu-dian-jiao-xing-fu-wu/gei-wai-xian-bo-fang-ti-shi-yin.md)
   * [系统报告](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/xi-tong-bao-gao.md)
     * [系统启动](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/xi-tong-bao-gao/xi-tong-qi-dong.md)
-    * 系统配置变更
+    * [系统配置变更](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/xi-tong-bao-gao/xi-tong-pei-zhi-bian-geng.md)
     * 分机状态变更
   * [通话报告](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/tong-hua-bao-gao.md)
     * 响铃
