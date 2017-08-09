@@ -48,8 +48,8 @@
     * [呼入转接队列](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/tong-hua/hu-ru-zhuan-jie-dui-lie.md)
     * [呼入转接响铃组](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/tong-hua/hu-ru-zhuan-jie-xiang-ling-zu.md)
     * [来电受理](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/tong-hua/lai-dian-shou-li.md)
-  * 酒店叫醒服务
-    * 添加闹铃
+  * [酒店叫醒服务](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/jiu-dian-jiao-xing-fu-wu.md)
+    * [添加闹铃](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/jiu-dian-jiao-xing-fu-wu/tian-jia-nao-ling.md)
     * 查询闹铃
     * 修改闹铃
     * 删除闹铃
