@@ -18,21 +18,19 @@
 
 | 参数名称 | 类型 | 参数说明 | 参数值举例 |
 | :--- | :--- | :--- | :--- |
-| **&lt;trunklist&gt;** | Object | 中继对象 |  |
-| **&lt;trunkname&gt;** | string | 中继名 | Sip trunk test |
-| **&lt;status&gt;** | string | 中继当前状态 | Idle |
-| **&lt;type&gt;** | string | 中继类型 | SIP-Register, PSTN |
-| **\[port\]** | string | 中继端口 | Span1\_Port3,192.168.5.150 |
+| &lt;trunklist&gt; | Object | 中继对象 |  |
+| &lt;trunkname&gt; | string | 中继名 | Sip trunk test |
+| &lt;status&gt; | string | 中继当前状态 | Idle |
+| &lt;type&gt; | string | 中继类型 | SIP-Register, PSTN |
+| \[port\] | string | 中继端口 | Span1\_Port3,192.168.5.150 |
 
 **可能出现的错误码：**30001
-
-
 
 **附：各类型中继可能的状态**
 
 | FXO中继 | BRI/E1/T1/J1 | GSM/CDMA/UMTS | SIP/IAX |
 | :--- | :--- | :--- | :--- |
-| 1.fault2.idle3.busy | 1.fault2.alarm3.down4.up | 1.poweroff                           2.alarm                                  3.nosim                                  4.nosignal                              5.pinerror                             6.unregister                         7.busy                                  8.其余:idle                          三个信号强度signal ≥ 2010 ≤ signal &lt; 20signal &lt; 10 | 1.registering                         2.failure                               3.registered \(unmonitored\) 4.disable                              5.unknown |
+| 1.fault2.idle3.busy | 1.fault2.alarm3.down4.up |  1.poweroff                           2.alarm                                  3.nosim                                  4.nosignal                              5.pinerror                             6.unregister                         7.busy                                  8.其余:idle                          三个信号强度signal ≥ 2010 ≤ signal &lt; 20signal &lt; 10 |  1.registering                         2.failure                               3.registered \(unmonitored\) 4.disable                              5.unknown |
 
 
 
