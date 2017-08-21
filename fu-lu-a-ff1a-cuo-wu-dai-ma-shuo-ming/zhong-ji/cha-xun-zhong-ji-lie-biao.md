@@ -30,7 +30,7 @@
 
 | FXO中继 | BRI/E1/T1/J1 | GSM/CDMA/UMTS | SIP/IAX |
 | :--- | :--- | :--- | :--- |
-|  1.fault                                     2.idle                                      3.busy |  1.fault                                   2.alarm                                 3.down                                   4.up | 1.poweroff                           2.alarm                                  3.nosim                                  4.nosignal                              5.pinerror                             6.unregister                         7.busy                                  8.其余:idle                          三个信号强度signal ≥ 2010 ≤ signal &lt; 20signal &lt; 10 | 1.registering                         2.failure                               3.registered \(unmonitored\) 4.disable                              5.unknown |
+|  1.fault                                     2.idle                                      3.busy |  1.fault                                   2.alarm                                 3.down                                   4.up |  1.poweroff                           2.alarm                                  3.nosim                                  4.nosignal                              5.pinerror                             6.unregister                         7.busy                                  8.其余:idle                          三个信号强度signal ≥ 2010 ≤ signal &lt; 20signal &lt; 10 |  1.registering                         2.failure                               3.registered \(unmonitored\) 4.disable                              5.unknown |
 
 
 
