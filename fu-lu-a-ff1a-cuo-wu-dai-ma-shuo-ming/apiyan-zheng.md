@@ -44,21 +44,19 @@ S系列IPPBX API采用心跳包可以对IP, Port, URL进行更新。同时更新
 
 请求方式：POST
 
-请求地址：https://192.168.5.150:8088/api/v1.0.0/heartbeat?token=48a7d7481a5355aa4fb5dc285edeb40e
+请求地址：[https://192.168.5.150:8088/api/v1.0.0/heartbeat?token=48a7d7481a5355aa4fb5dc285edeb40e](https://192.168.5.150:8088/api/v1.0.0/heartbeat?token=48a7d7481a5355aa4fb5dc285edeb40e)
 
 请求示例：
 
-{"ipaddr": "192.168.5.100","port": "8260","url":"1112121212"}
+{"ipaddr": "192.168.5.150","port": "8260","url":"1112121212"}
 
 请求参数说明：
 
 | 参数名称 | 类型 | 参数说明 | 参数值举例 |
 | :--- | :--- | :--- | :--- |
-| &lt;ipaddr&gt; | string | IP地址 | 192.168.5.100 |
+| &lt;ipaddr&gt; | string | IP地址 | 192.168.5.150 |
 | &lt;port&gt; | string | 端口，此端口为第三方应用用于监听API发送的事件报告的端口。 | 0&lt;port&lt;65536 |
-
-\|  
-\| \[url\] \| string \| API应用方的URL \|          \|
+| \[url\] | string | API应用方的URL。 |  |
 
 ## 退出登录
 
