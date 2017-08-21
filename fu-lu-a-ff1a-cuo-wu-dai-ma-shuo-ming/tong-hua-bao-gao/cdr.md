@@ -34,8 +34,7 @@ CDR是指PBX对一路通话从开始到结束的记录和统计的报告
 | **\[status\]** | String | 通话状态 | ANSWEREDNOANSWERFAILEDVOICEMAIL |
 | **\[type\]** | String | 通话类型 | Inbound, Outbound, Internal, Callback, Transfer |
 | **\[pincode\]** | Int | 密码 | 122 |
-
-
+| **\[recording\]** | string | 全局录音文件名 | hello001 |
 
 
 
