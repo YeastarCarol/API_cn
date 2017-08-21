@@ -46,11 +46,11 @@
 | \[vmsecret\] | int | 语音邮箱密码 | 3000 |
 | \[enablevmtoemail\] | string | 是否发送语音邮件到邮箱 | On：开启 off：关闭 |
 | \[alwaysforward\] | string | 总是转移开关 | On：开启 off：关闭 |
-| \[atransferto\]\[atransferext\]\[atransferprefix\]\[atransfernum\] | string | 总是转移目的地 | Voicemail: voicemailExtension: ext1000Mobile Number: mobile1399999999Custom Number: number9+5923333 |
+|  \[atransferto\]                        \[atransferext\]                       \[atransferprefix\]                    \[atransfernum\] | string | 总是转移目的地 |  Voicemail:   voicemail          Extension: ext1000Mobile Number: mobile139999999 Custom Number: number9+5923333 |
 | \[noanswerforward\] | string | 无应答转移开关 | On：开启 off：关闭 |
-| \[ntransferto\]\[ntransferext\]\[ntransferprefix\]\[ntransfernum\] | string | 无应答转移目的地 | Voicemail: voicemailExtension: ext1000Mobile Number: mobile1399999999Custom Number: number9+5923333 |
+|  \[ntransferto\]                        \[ntransferext\]                       \[ntransferprefix\]                  \[ntransfernum\] | string | 无应答转移目的地 |  Voicemail: voicemail            Extension: ext1000Mobile Number: mobile139999999 Custom Number: number9+5923333 |
 | \[busyforward\] | string | 忙时转移开关 | On：开启 off：关闭 |
-| \[btransferto\]\[btransferext\]\[btransferprefix\]\[btransfernum\] | string | 忙时转移目的地 | Voicemail: voicemailExtension: ext1000Mobile Number: mobile1399999999Custom Number: number9+5923333 |
+|  \[btransferto\]                        \[btransferext\]                      \[btransferprefix\]                  \[btransfernum\] | string | 忙时转移目的地 |  Voicemail: voicemail           Extension: ext1000Mobile Number: mobile13999999   Custom Number: number9+5923333 |
 | \[enablemobile\] | string | 移动分机开关 | On：开启 off：关闭 |
 | \[ringsimultaneous\] | string | 移动分机同振 | On：开启 off：关闭 |
 | \[mobileprefix\] | string | 移动分机呼出前缀 | 空或者具体前缀 |
@@ -65,14 +65,14 @@
 | &lt;from&gt; | string | 主叫号码 | 1000 |
 | &lt;to&gt; | string | 被叫号码 | 5003 |
 | \[ext\|outer\] | object | 来电的通话方，可能为分机、去电 | 6500 |
-| \[status\] | string | 通话状态 | Talking：通话进行中Progress：呼叫处理中Wait:呼叫等待中 |
+| \[status\] | string | 通话状态 |  Talking：通话进行中            Progress：呼叫处理中       Wait:呼叫等待中 |
 | &lt;trunk&gt; | string | 呼入时通过的中继名 | Sip-trunk |
 | \[outbound\] | osbject | 去电，呼出到外线的通话 | N/A |
 | &lt;outboundid&gt; | int | 去电的编号，依据该参数对来电进行转接、查询、挂断等操作 | 1 |
 | &lt;from&gt; | string | 主叫号码 | 1000 |
 | &lt;to&gt; | string | 被叫号码 | 5003 |
 | &lt;trunk&gt; | string | 呼出时通过的中继名 | Sip-trunk |
-| \[status\] | string | 通话状态 | Talking：通话进行中Progress：呼叫处理中Wait:呼叫等待中 |
+| \[status\] | string | 通话状态 |  Talking：通话进行中           Progress：呼叫处理中       Wait:呼叫等待中 |
 
 **可能出现的错误码：**30001
 
