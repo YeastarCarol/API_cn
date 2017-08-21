@@ -23,7 +23,7 @@
 | &lt;status&gt; | string | 分机当前状态 | Unavailable, Registered, Ringing, Busy, Hold, Malfunction, Idle, Fxsnoport |
 | &lt;type&gt; | string | 分机类型 | SIP, FXS |
 | \[port\] | string | 分机端口 | Span1\_Port3 |
-| &lt;username&gt; | string | 分机名 | Ina Tang |
+| &lt;username&gt; | string | 用户名 | Ina Tang |
 
 **可能出现的错误码：**30001
 

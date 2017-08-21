@@ -1,6 +1,6 @@
 # 查询单个或多个分机信息
 
-通过本接口可以查询单个或者多个分机的详细信息，如：高级配置信息等。当发送查选多个分机请求的时候，请求参数用逗号隔开。
+通过本接口可以查询单个或者多个分机的详细信息，如：高级配置信息等。当发送查询多个分机请求的时候，请求参数需用逗号隔开。
 
 **请求方式：**POST
 
@@ -34,8 +34,8 @@
 | &lt;status&gt; | string | 分机当前状态 | Unavailable, Registered, Ringing, Busy, Hold, Malfunction, Idle, Fxsnoport |
 | &lt;type&gt; | string | 分机类型 | SIP,FXS |
 | &lt;port&gt; | string | 分机端口 | Span1\_Port3 |
-| &lt;callerid&gt; | sstring | 来电显示号码 | 1000 |
-| &lt;registername&gt; | sstring | 注册名称 | 1000 |
+| &lt;callerid&gt; | string | 来电显示号码 | 1000 |
+| &lt;registername&gt; | string | 注册名称 | 1000 |
 | &lt;registerpassword&gt; | string | 注册密码 | 明文显示 |
 | &lt;maxregistrations&gt; | int | 同时注册数 | 5 |
 | \[loginpassword\] | string | 用户密码 | MD5加密后显示 |
@@ -53,8 +53,8 @@
 | \[btransferto\]\[btransferext\]\[btransferprefix\]\[btransfernum\] | string | 忙时转移目的地 | Voicemail: voicemailExtension: ext1000Mobile Number: mobile1399999999Custom Number: number9+5923333 |
 | \[enablemobile\] | string | 移动分机开关 | On：开启 off：关闭 |
 | \[ringsimultaneous\] | string | 移动分机同振 | On：开启 off：关闭 |
-| \[mobileprefix\] | sstring | 移动分机呼出前缀 | 空或者具体前缀 |
-| \[allowbeingmonitored\] | sstring | 允许被监听 | On：开启 off：关闭 |
+| \[mobileprefix\] | string | 移动分机呼出前缀 | 空或者具体前缀 |
+| \[allowbeingmonitored\] | string | 允许被监听 | On：开启 off：关闭 |
 | \[monitormode\] | string | 监听模式 | 可选项：Disable, Extensive, Listen, Whisper, Barge-in |
 | \[ringtimeout\] | string | 响铃超时 | 30 |
 | \[maxduration\] | string | 最大通话时长 | 600 |
