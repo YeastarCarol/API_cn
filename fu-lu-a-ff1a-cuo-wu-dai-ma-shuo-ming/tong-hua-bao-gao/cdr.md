@@ -20,19 +20,19 @@
 
 | 参数名称 | 类型 | 参数说明 | 参数值举例 |
 | :--- | :--- | :--- | :--- |
-| **&lt;cdrid&gt;** | String | CDR编号 | 123456789 |
-| **\[callid\]** | String | 通话唯一标识 | 2000 |
-| **\[timestart\]** | [String]() | 开始时间 | 2017-05-25 22:26:20 |
-| **\[callfrom\]** | String | 主叫号码 | 1000 |
-| **\[callto\]** | String | 被叫号码 | 18000000 |
-| **\[callduraction\]** | String | 通话时长 | 18 |
-| **\[talkduraction\]** | String | 接听时长 | 9 |
-| **\[srctrunkname\]** | String | 源中继名称 | Sps129 |
-| **\[dstrunkname\]** | String | 目的中继名称 | Sps128 |
-| **\[status\]** | String | 通话状态 | ANSWEREDNOANSWERFAILEDVOICEMAIL |
-| **\[type\]** | String | 通话类型 | Inbound, Outbound, Internal, Callback, Transfer |
-| **\[pincode\]** | Int | 密码 | 122 |
-| **\[recording\]** | string | 全局录音文件名 | hello001 |
+| &lt;cdrid&gt; | string | CDR编号 | 123456789 |
+| \[callid\] | string | 通话唯一标识 | 2000 |
+| \[timestart\] | string | 开始时间 | 2017-05-25 22:26:20 |
+| \[callfrom\] | string | 主叫号码 | 1000 |
+| \[callto\] | string | 被叫号码 | 18000000 |
+| \[callduraction\] | string | 通话时长 | 18 |
+| \[talkduraction\] | string | 接听时长 | 9 |
+| \[srctrunkname\] | string | 源中继名称 | Sps129 |
+| \[dstrunkname\] | string | 目的中继名称 | Sps128 |
+| \[status\] | string | 通话状态 | ANSWEREDNOANSWERFAILEDVOICEMAIL |
+| \[type\] | string | 通话类型 | Inbound, Outbound, Internal, Callback, Transfer |
+| \[pincode\] | int | 密码 | 122 |
+| \[recording\] | string | 全局录音文件名 | hello001 |
 
 
 
