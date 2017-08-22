@@ -16,9 +16,9 @@
 
 | 参数名称 | 类型 | 参数说明 | 参数值举例 |
 | :--- | :--- | :--- | :--- |
-| &lt;caller&gt; | String | 主叫分机 | 1000 |
-| &lt;callee&gt; | String | 被叫分机 | 1002 |
-| \[autoanswer\] | String | 是否自动接听[\(]()只针对SIP线路有效，且需要话机支持，此参数不带则默认为不自动应答\) | yes/no |
+| &lt;caller&gt; | string | 主叫分机 | 1000 |
+| &lt;callee&gt; | string | 被叫分机 | 1002 |
+| \[autoanswer\] | string | 是否自动接听[\(]()只针对SIP线路有效，且需要话机支持，此参数不带则默认为不自动应答\) | yes/no |
 
 **响应示例：**
 
@@ -28,7 +28,7 @@
 
 | 参数名称 | 类型 | 参数说明 | 参数值举例 |
 | :--- | :--- | :--- | :--- |
-| &lt;status&gt; | String | 分机拨打分机结果 | Success或者Failed |
+| &lt;status&gt; | string | 分机拨打分机结果 | Success或者Failed |
 
 **可能出现的错误代码：**10004，10006，30001
 
