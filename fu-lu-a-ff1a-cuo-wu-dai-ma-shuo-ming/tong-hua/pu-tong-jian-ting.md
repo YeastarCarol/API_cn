@@ -30,8 +30,8 @@
 
 | 参数名称 | 类型 | 参数说明 | 参数值举例 |
 | :--- | :--- | :--- | :--- |
-| **&lt;listener&gt;** | string | 监听分机 | 1005 |
-| **&lt;listenedext&gt;** | string | 被监听分机 | 1002 |
+| &lt;listener&gt; | string | 监听分机 | 1005 |
+| &lt;listenedext&gt; | string | 被监听分机 | 1002 |
 
 **响应示例：**
 
@@ -41,7 +41,7 @@
 
 | 参数名称 | 类型 | 参数说明 | 参数值举例 |
 | :--- | :--- | :--- | :--- |
-| **&lt;status&gt;** | string | 监听分机结果 | Success或者Failed |
+| &lt;status&gt; | string | 监听分机结果 | Success或者Failed |
 
 **可能出现的错误码：**10004，10007，10010，10008，10006，10009，30001
 
