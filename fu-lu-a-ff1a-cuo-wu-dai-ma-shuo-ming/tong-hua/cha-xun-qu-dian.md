@@ -1,12 +1,10 @@
-
-
 # 查询去电
 
 通过本接口可以查询当前PBX系统分机通过外线呼出的所有通话的详细信息，如：主叫，被叫，通话状态，通过的中继，目的地等。
 
 **请求方式：**POST
 
-**请求地址：**https://192.168.5.150:8088/api/v1.0.0/outbound/query?token=6cad9cee6e2ad94570636e7b3690aeb2
+**请求地址：**[https://192.168.5.150:8088/api/v1.0.0/outbound/query?token=6cad9cee6e2ad94570636e7b3690aeb2](https://192.168.5.150:8088/api/v1.0.0/outbound/query?token=6cad9cee6e2ad94570636e7b3690aeb2)
 
 **请求示例：**
 
@@ -20,7 +18,7 @@
 
 | 参数名称 | 类型 | 参数说明 | 参数值举例 |
 | :--- | :--- | :--- | :--- |
-| **&lt;outboundid&gt;** | String | 查询所有去电 | N/A |
+| &lt;outboundid&gt; | string | 查询所有去电 | N/A |
 
 **响应示例：**
 
@@ -30,12 +28,12 @@
 
 | 参数名称 | 类型 | 参数说明 | 参数值举例 |
 | :--- | :--- | :--- | :--- |
-| **\[outbound\]** | object | 去电，为呼出到外线的外部通话 | N/A |
-| **&lt;outboundid&gt;** | int | 去电的编号，依据该参数对去电进行转接、查询、挂断等操作 | 1495705009.316 |
-| **&lt;from&gt;** | String | 主叫号码 | 1000 |
-| **&lt;to&gt;** | String | 被叫号码 | 5003 |
-| **&lt;trunk&gt;** | String | 呼出时通过的中继名称 | Sip-142 |
-| **\[status\]** | string | 通话状态 | Talking：通话进行中Progress：呼叫处理中Wait:呼叫等待中 |
+| \[outbound\] | object | 去电，为呼出到外线的外部通话 | N/A |
+| &lt;outboundid&gt; | int | 去电的编号，依据该参数对去电进行转接、查询、挂断等操作 | 1495705009.316 |
+| &lt;from&gt; | string | 主叫号码 | 1000 |
+| &lt;to&gt; | string | 被叫号码 | 5003 |
+| &lt;trunk&gt; | string | 呼出时通过的中继名称 | Sip-142 |
+| \[status\] | string | 通话状态 |  Talking：通话进行中            Progress：呼叫处理中          Wait:呼叫等待中 |
 
 **可能出现的错误码：**30001
 
