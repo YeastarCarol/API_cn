@@ -16,8 +16,8 @@
 
 | 参数名称 | 类型 | 参数说明 | 参数值举例 |
 | :--- | :--- | :--- | :--- |
-| &lt; queueid&gt; | string | 队列号码 | 6200 |
-| &lt;outto&gt; | string | 外线号码 | 18045924562 |
+| &lt;queueid&gt; | string | 队列号码 | 6200 |
+| &lt;outto&gt; | string | 要拨打的外线号码 | 18045924562 |
 | &lt;fromext&gt; | string | 采用哪个分机的权限 | 1000 |
 
 **响应示例：**
@@ -28,7 +28,7 @@
 
 | 参数名称 | 类型 | 参数说明 | 参数值举例 |
 | :--- | :--- | :--- | :--- |
-| &lt; Status&gt; | string | 请求结果 | Success或者Failed |
+| &lt;status&gt; | string | 请求结果 | Success或者Failed |
 | &lt;callerid&gt; | string | 通话唯一标识符 |  |
 
 
