@@ -1,5 +1,3 @@
-
-
 # 普通监听
 
 通过本接口可以实现一个分机监听另一个分机的当前通话。
@@ -22,7 +20,7 @@
 
 **请求方式：**POST
 
-**请求地址：**https://192.168.5.150:8088/api/v1.0.0/extension/listen?token=7d20390952e15eb72b0a1df7172de65c
+**请求地址：**[https://192.168.5.150:8088/api/v1.0.0/extension/listen?token=7d20390952e15eb72b0a1df7172de65c](https://192.168.5.150:8088/api/v1.0.0/extension/listen?token=7d20390952e15eb72b0a1df7172de65c)
 
 **请求示例：**
 
@@ -32,8 +30,8 @@
 
 | 参数名称 | 类型 | 参数说明 | 参数值举例 |
 | :--- | :--- | :--- | :--- |
-| **&lt;listener&gt;** | String | 监听分机 | 1005 |
-| **&lt;listenedext&gt;** | String | 被监听分机 | 1002 |
+| **&lt;listener&gt;** | string | 监听分机 | 1005 |
+| **&lt;listenedext&gt;** | string | 被监听分机 | 1002 |
 
 **响应示例：**
 
@@ -43,9 +41,7 @@
 
 | 参数名称 | 类型 | 参数说明 | 参数值举例 |
 | :--- | :--- | :--- | :--- |
-| **&lt;status&gt;** | String | 监听分机结果 | Success或者Failed |
+| **&lt;status&gt;** | string | 监听分机结果 | Success或者Failed |
 
 **可能出现的错误码：**10004，10007，10010，10008，10006，10009，30001
-
-
 
