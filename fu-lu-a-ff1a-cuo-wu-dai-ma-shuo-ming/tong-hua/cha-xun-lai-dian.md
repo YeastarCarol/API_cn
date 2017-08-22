@@ -1,12 +1,10 @@
-
-
 # 查询来电
 
-通过本接口可以查询当前通过外线呼入PBX系统的所有通话的详细信息，如：主叫，被叫，通话状态，通过的中继等。
+通过本接口可以查询当前通过外线呼入IPPBX系统的所有通话的详细信息，如：主叫，被叫，通话状态，通过的中继等。
 
 **请求方式：**POST
 
-**请求地址：**https://192.168.5.150:8088/api/v1.0.0/inbound/query?token=7d20390952e15eb72b0a1df7172de65c
+**请求地址：**[https://192.168.5.150:8088/api/v1.0.0/inbound/query?token=7d20390952e15eb72b0a1df7172de65c](https://192.168.5.150:8088/api/v1.0.0/inbound/query?token=7d20390952e15eb72b0a1df7172de65c)
 
 **请求示例：**
 
@@ -20,7 +18,7 @@
 
 | 参数名称 | 类型 | 参数说明 | 参数值举例 |
 | :--- | :--- | :--- | :--- |
-| **&lt;inboundid&gt;** | String | 查询所有来电 | N/A |
+| &lt;inboundid&gt; | string | 查询所有来电 | N/A |
 
 **响应参数：**
 
@@ -30,13 +28,13 @@
 
 | 参数名称 | 类型 | 参数说明 | 参数值举例 |
 | :--- | :--- | :--- | :--- |
-| **\[inbound\]** | object | 来电，为由外线呼入的外部通话 | N/A |
-| **&lt;inboundid&gt;** | int | 来电的编号，依据该参数对来电进行转接、查询、挂断等操作，原有的通话标识 | 1 |
-| **&lt;from&gt;** | String | 主叫号码 | 1000 |
-| **&lt;to&gt;** | String | 被叫号码 | 5003 |
-| **\[callee\]** | object | 来电的通话方，可能为分机、IVR、去电 | 1005 |
-| **&lt;trunk&gt;** | String | 呼入时通过的中继名 | Sip |
-| **\[status\]** | string | 通话状态 | Talking：通话进行中Progress：呼叫处理中Wait:呼叫等待中 |
+| \[inbound\] | object | 来电，为由外线呼入的外部通话 | N/A |
+| &lt;inboundid&gt; | int | 来电的编号，依据该参数对来电进行转接、查询、挂断等操作，原有的通话标识 | 1 |
+| &lt;from&gt; | string | 主叫号码 | 1000 |
+| &lt;to&gt; | string | 被叫号码 | 5003 |
+| \[callee\] | object | 来电的通话方，可能为分机、IVR、去电 | 1005 |
+| &lt;trunk&gt; | string | 呼入时通过的中继名 | Sip |
+| \[status\] | string | 通话状态 | Talking：通话进行中Progress：呼叫处理中Wait:呼叫等待中 |
 
 **可能出现的错误码：**30001
 
