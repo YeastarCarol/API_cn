@@ -14,12 +14,14 @@
 
 {"extid": "1000","prompt":"hello111","autoanswer":"no"}
 
+{ "extid": "1000000","prompt":"1+queue1+queue2","autoanswer":"no"}
+
 **请求参数说明：**
 
 | 参数名称 | 类型 | 参数说明 | 参数值举例 |
 | :--- | :--- | :--- | :--- |
 | &lt;extid&gt; | string | 分机号 | 1000 |
-| &lt;prompt&gt; | string | 自定义音乐 | hello111+hi |
+| &lt;prompt&gt; | string | 自定义音乐 | hello111 |
 | \[autoanswer\] | string | 自动接听 | yes/no |
 
 **响应示例：**

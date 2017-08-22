@@ -16,6 +16,8 @@
 
 {"outto": "41000","prompt":"hello111","fromext":"1000"}
 
+{ "outto": "1000000","prompt":"1+queue1+queue2","autoanswer":"no"}
+
 **请求参数说明：**
 
 | 参数名称 | 类型 | 参数说明 | 参数值举例 |
