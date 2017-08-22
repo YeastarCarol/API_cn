@@ -1,5 +1,3 @@
-
-
 # 呼出转接IVR
 
 通过本接口可将呼出的通话转接到IVR，从而实现：
@@ -10,7 +8,7 @@
 
 **请求方式：**POST
 
-**请求地址：**https://192.168.5.150:8088/api/v1.0.0/outbound/transfer\_ivr?token=7d20390952e15eb72b0a1df7172de65c
+**请求地址：**[https://192.168.5.150:8088/api/v1.0.0/outbound/transfer\_ivr?token=7d20390952e15eb72b0a1df7172de65c](https://192.168.5.150:8088/api/v1.0.0/outbound/transfer_ivr?token=7d20390952e15eb72b0a1df7172de65c)
 
 **请求示例：**
 
@@ -20,8 +18,8 @@
 
 | 参数名称 | 类型 | 参数说明 | 参数值举例 |
 | :--- | :--- | :--- | :--- |
-| **&lt;outboundid&gt;** | String | 呼出编号 | 1495700976.276 |
-| **&lt;ivrid&gt;** | Int | IVR号码 | 6500 |
+| &lt;outboundid&gt; | string | 呼出编号 | 1495700976.276 |
+| &lt;ivrid&gt; | int | IVR号码 | 6500 |
 
 **响应示例：**
 
@@ -31,8 +29,8 @@
 
 | 参数名称 | 类型 | 参数说明 | 参数值举例 |
 | :--- | :--- | :--- | :--- |
-| **&lt;status&gt;** | String | 呼出转接IVR结果 | Success或者Failed |
-| **&lt;callid&gt;** | String | 通话唯一标识符 | 1495700976.275 |
+| &lt;status&gt; | string | 呼出转接IVR结果 | Success或者Failed |
+| &lt;callid&gt; | string | 通话唯一标识符 | 1495700976.275 |
 
 **可能出现的错误码：**10004，10007，10012，30001
 
