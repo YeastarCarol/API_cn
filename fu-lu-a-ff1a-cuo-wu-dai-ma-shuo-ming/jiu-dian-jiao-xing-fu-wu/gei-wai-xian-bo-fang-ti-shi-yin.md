@@ -14,14 +14,14 @@
 
 **请求示例：**
 
-{"outto": "41000","prompt":"111","fromext":"1000"}
+{"outto": "41000","prompt":"hello111","fromext":"1000"}
 
 **请求参数说明：**
 
 | 参数名称 | 类型 | 参数说明 | 参数值举例 |
 | :--- | :--- | :--- | :--- |
 | &lt;outto&gt; | string | 外线号码 | 41000 |
-| &lt;prompt&gt; | string | 自定义音乐 | 111必须为自定义提示音 |
+| &lt;prompt&gt; | string | 自定义音乐 | hello111 |
 | \[fromext\] | string | 借用呼出权限的分机号 | 1000 |
 
 **响应示例：**
