@@ -16,13 +16,9 @@
 
 **请求地址：**
 
-**1.Accept：**
+**1.Accept：**[https://192.168.5.150:8088/api/v1.0.0/inbound/accept?token=15bc7e4a0934023e79a557e15ff1f69e](https://192.168.5.150:8088/api/v1.0.0/inbound/accept?token=15bc7e4a0934023e79a557e15ff1f69e)
 
-[https://192.168.5.150:8088/api/v1.0.0/inbound/accept?token=15bc7e4a0934023e79a557e15ff1f69e](https://192.168.5.150:8088/api/v1.0.0/inbound/accept?token=15bc7e4a0934023e79a557e15ff1f69e)
-
-**2.refuse：**
-
-[https://192.168.5.150:8088](https://192.168.5.150:8088) /api/v1.0.0/inbound/refuse?token=15bc7e4a0934023e79a557e15ff1f69e
+**2.refuse：**[https://192.168.5.150:8088](https://192.168.5.150:8088)/api/v1.0.0/inbound/refuse?token=15bc7e4a0934023e79a557e15ff1f69e
 
 **请求示例：**
 
@@ -32,7 +28,7 @@
 
 | 参数名称 | 类型 | 参数说明 | 参数值举例 |
 | :--- | :--- | :--- | :--- |
-| **&lt;inboundid&gt;** | int | 接受该来电编号通话 | 1495703883.314 |
+| &lt;inboundid&gt; | int | 接受/拒绝该来电编号的通话 | 1495703883.314 |
 
 **响应示例：**
 
@@ -42,7 +38,7 @@
 
 | 参数名称 | 类型 | 参数说明 | 参数值举例 |
 | :--- | :--- | :--- | :--- |
-| **&lt;accept&gt;** | String | 来电受理结果 | Success或者Failed |
+| &lt;accept&gt; | string | 来电受理结果 | Success或者Failed |
 
 **可能出现的错误码：**10004，10007，30001
 
