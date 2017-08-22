@@ -34,7 +34,7 @@
 | &lt;to&gt; | string | 被叫号码 | 5003 |
 | \[callee\] | object | 来电的通话方，可能为分机、IVR、去电 | 1005 |
 | &lt;trunk&gt; | string | 呼入时通过的中继名 | Sip |
-| \[status\] | string | 通话状态 | Talking：通话进行中Progress：呼叫处理中Wait:呼叫等待中 |
+| \[status\] | string | 通话状态 |  Talking：通话进行中             Progress：呼叫处理中          Wait:呼叫等待中 |
 
 **可能出现的错误码：**30001
 
