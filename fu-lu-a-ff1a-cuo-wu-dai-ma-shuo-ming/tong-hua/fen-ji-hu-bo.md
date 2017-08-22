@@ -6,7 +6,7 @@
 
 **请求方式：**POST
 
-**请求地址：**https://192.168.5.150:8088/api/v1.0.0/extension/dial\_extension?token=7d20390952e15eb72b0a1df7172de65c
+**请求地址：**[https://192.168.5.150:8088/api/v1.0.0/extension/dial\_extension?token=7d20390952e15eb72b0a1df7172de65c](https://192.168.5.150:8088/api/v1.0.0/extension/dial_extension?token=7d20390952e15eb72b0a1df7172de65c)
 
 **请求示例：**
 
@@ -16,9 +16,9 @@
 
 | 参数名称 | 类型 | 参数说明 | 参数值举例 |
 | :--- | :--- | :--- | :--- |
-| **&lt;caller&gt;** | String | 主叫分机 | 1000 |
-| **&lt;callee&gt;** | String | 被叫分机 | 1002 |
-| **\[autoanswer\]** | String | 是否自动接听[\(]()只针对SIP线路有效，且需要话机支持，此参数不带则默认为不自动应答\) | yes/no |
+| &lt;caller&gt; | String | 主叫分机 | 1000 |
+| &lt;callee&gt; | String | 被叫分机 | 1002 |
+| \[autoanswer\] | String | 是否自动接听[\(]()只针对SIP线路有效，且需要话机支持，此参数不带则默认为不自动应答\) | yes/no |
 
 **响应示例：**
 
@@ -28,7 +28,7 @@
 
 | 参数名称 | 类型 | 参数说明 | 参数值举例 |
 | :--- | :--- | :--- | :--- |
-| **&lt;status&gt;** | String | 分机拨打分机结果 | Success或者Failed |
+| &lt;status&gt; | String | 分机拨打分机结果 | Success或者Failed |
 
 **可能出现的错误代码：**10004，10006，30001
 
