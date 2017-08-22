@@ -1,12 +1,10 @@
-
-
 # 挂断去电（强拆）
 
-通过本接口可以指定挂断PBX通过外线呼出的通话。
+通过本接口可以指定挂断IPPBX通过外线呼出的通话。
 
 **请求方式：**POST
 
-**请求地址：**https://192.168.5.150:8088/api/v1.0.0/outbound/hangup?token=6cad9cee6e2ad94570636e7b3690aeb2
+**请求地址：**[https://192.168.5.150:8088/api/v1.0.0/outbound/hangup?token=6cad9cee6e2ad94570636e7b3690aeb2](https://192.168.5.150:8088/api/v1.0.0/outbound/hangup?token=6cad9cee6e2ad94570636e7b3690aeb2)
 
 **请求示例：**
 
@@ -16,7 +14,7 @@
 
 | 参数名称 | 类型 | 参数说明 | 参数值举例 |
 | :--- | :--- | :--- | :--- |
-| **&lt;outboundid&gt;** | String | 挂断指定呼出通话 | 1495705264.322 |
+| &lt;outboundid&gt; | string | 挂断指定呼出通话 | 1495705264.322 |
 
 **响应参数说明：**
 
@@ -26,9 +24,9 @@
 
 | 参数名称 | 类型 | 参数说明 | 参数值举例 |
 | :--- | :--- | :--- | :--- |
-| **&lt;status&gt;** | String | 呼出挂断结果 | Success或者Failed |
+| &lt;status&gt; | string | 呼出挂断结果 | Success或者Failed |
 
 **可能出现的错误码：**10007，10004，30001
 
- 
+
 
