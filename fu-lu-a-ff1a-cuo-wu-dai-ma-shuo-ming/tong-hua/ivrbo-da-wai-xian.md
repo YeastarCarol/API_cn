@@ -18,9 +18,9 @@
 
 | 参数名称 | 类型 | 参数说明 | 参数值举例 |
 | :--- | :--- | :--- | :--- |
-| **&lt;ivrid&gt;** | String | IVR号码 | 6500 |
-| **&lt;outto&gt;** | String | 呼出的被叫号码\(匹配呼出规则\) | 41000 |
-| **&lt;fromext&gt;** | String | 采用哪个分机的权限 | 1000 |
+| &lt;ivrid&gt; | string | IVR号码 | 6500 |
+| &lt;outto&gt; | string | 呼出的被叫号码\(匹配呼出规则\) | 41000 |
+| &lt;fromext&gt; | string | 采用哪个分机的权限 | 1000 |
 
 **响应示例：**
 
@@ -30,8 +30,8 @@
 
 | 参数名称 | 类型 | 参数说明 | 参数值举例 |
 | :--- | :--- | :--- | :--- |
-| **&lt;status&gt;** | String | IVR拨打外线结果 | Success或者Failed |
-| **&lt;callid&gt;** | String | 通话唯一标识符 | 1495700406.266 |
+| &lt;status&gt; | string | IVR拨打外线结果 | Success或者Failed |
+| &lt;callid&gt; | string | 通话唯一标识符 | 1495700406.266 |
 
 
 
