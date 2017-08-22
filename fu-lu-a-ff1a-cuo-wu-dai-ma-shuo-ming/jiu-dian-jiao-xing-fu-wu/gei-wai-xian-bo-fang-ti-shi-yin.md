@@ -1,12 +1,12 @@
+# 给外线播放提示音
 
-
-# 给外线播放音乐
+通过本接口可给指定外线号码播放提示音
 
 说明：只能单个分机操作
 
 **请求方式：**POST
 
-**请求地址：**https://192.168.5.150:8088/api/v1.0.0/outbound/playprompt?token=7d20390952e15eb72b0a1df7172de65c
+**请求地址：**[https://192.168.5.150:8088/api/v1.0.0/outbound/playprompt?token=7d20390952e15eb72b0a1df7172de65c](https://192.168.5.150:8088/api/v1.0.0/outbound/playprompt?token=7d20390952e15eb72b0a1df7172de65c)
 
 **请求示例：**
 
@@ -16,9 +16,9 @@
 
 | 参数名称 | 类型 | 参数说明 | 参数值举例 |
 | :--- | :--- | :--- | :--- |
-| **&lt;outto&gt;** | String | 外线 | 41000 |
-| **&lt;prompt&gt;** | String | 自定义音乐 | 111必须为自定义提示音 |
-| **\[fromext\]** | String | 借用呼出权限的分机号 | 1000 |
+| &lt;outto&gt; | string | 外线 | 41000 |
+| &lt;prompt&gt; | string | 自定义音乐 | 111必须为自定义提示音 |
+| \[fromext\] | string | 借用呼出权限的分机号 | 1000 |
 
 **响应示例：**
 
