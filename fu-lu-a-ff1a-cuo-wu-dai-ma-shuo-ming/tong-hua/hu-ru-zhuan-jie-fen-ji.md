@@ -6,7 +6,7 @@
 
 **请求方式：**POST
 
-**请求地址：**https://192.168.5.150:8088/api/v1.0.0/inbound/transfer\_extension?token=7d20390952e15eb72b0a1df7172de65c
+**请求地址：**[https://192.168.5.150:8088/api/v1.0.0/inbound/transfer\_extension?token=7d20390952e15eb72b0a1df7172de65c](https://192.168.5.150:8088/api/v1.0.0/inbound/transfer_extension?token=7d20390952e15eb72b0a1df7172de65c)
 
 **请求示例：**
 
@@ -16,8 +16,8 @@
 
 | 参数名称 | 类型 | 参数说明 | 参数值举例 |
 | :--- | :--- | :--- | :--- |
-| **&lt;inboundid&gt;** | string | 呼入来电编号 | 1495698591.209 |
-| **&lt;extid&gt;** | string | 分机号 | 1000 |
+| &lt;inboundid&gt; | string | 呼入来电编号 | 1495698591.209 |
+| &lt;extid&gt; | string | 转接目的地的分机号 | 1000 |
 
 **响应示例：**
 
@@ -27,8 +27,8 @@
 
 | 参数名称 | 类型 | 参数说明 | 参数值举例 |
 | :--- | :--- | :--- | :--- |
-| [**&lt;**]()**status&gt;** | string | 呼入转接分机结果 | Success或者Failed |
-| **&lt;callid&gt;** | string | 通话唯一标识符 | 1495698591.209 |
+| &lt;status&gt; | string | 呼入转接分机结果 | Success或者Failed |
+| &lt;callid&gt; | string | 通话唯一标识符 | 1495698591.209 |
 
 **可能出现的错误码：**10004，10006，30001
 
