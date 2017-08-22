@@ -1,12 +1,12 @@
+# 给分机播放提示音
 
+通过本接口可给指定分机播放提示音
 
-# 给分机播放音乐
-
-说明：只能单个分机操作
+**说明：**只能单个分机操作。
 
 **请求方式：**POST（HTTPS）
 
-**请求地址：**https://192.168.5.150:8088/api/v1.0.0/extension/playprompt?token=7d20390952e15eb72b0a1df7172de65c
+**请求地址：**[https://192.168.5.150:8088/api/v1.0.0/extension/playprompt?token=7d20390952e15eb72b0a1df7172de65c](https://192.168.5.150:8088/api/v1.0.0/extension/playprompt?token=7d20390952e15eb72b0a1df7172de65c)
 
 **请求示例：**
 
@@ -16,9 +16,9 @@
 
 | 参数名称 | 类型 | 参数说明 | 参数值举例 |
 | :--- | :--- | :--- | :--- |
-| **&lt;extid&gt;** | String | 分机号 | 1000 |
-| **&lt;prompt&gt;** | String | 自定义音乐 | 111必须为自定义提示音 |
-| **\[autoanswer\]** | String | 自动接听 | yes/no |
+| &lt;extid&gt; | string | 分机号 | 1000 |
+| &lt;prompt&gt; | string | 自定义音乐 | 111必须为自定义提示音 |
+| \[autoanswer\] | string | 自动接听 | yes/no |
 
 **响应示例：**
 
