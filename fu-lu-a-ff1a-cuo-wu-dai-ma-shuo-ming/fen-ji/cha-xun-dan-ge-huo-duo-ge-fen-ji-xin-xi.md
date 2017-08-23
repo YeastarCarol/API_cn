@@ -50,7 +50,7 @@
 | \[noanswerforward\] | string | 无应答转移开关 | On：开启 off：关闭 |
 | \[ntransferto\]                        \[ntransferext\]                       \[ntransferprefix\]                  \[ntransfernum\] | string | 无应答转移目的地 | Voicemail: voicemail            Extension: ext1000Mobile Number: mobile139999999 Custom Number: number9+5923333 |
 | \[busyforward\] | string | 忙时转移开关 | On：开启 off：关闭 |
-|  \[btransferto\]                        \[btransferext\]                      \[btransferprefix\]                  \[btransfernum\] | string | 忙时转移目的地 | Voicemail: voicemail           Extension: ext1000Mobile Number: mobile13999999   Custom Number: number9+5923333 |
+| \[btransferto\]                        \[btransferext\]                      \[btransferprefix\]                  \[btransfernum\] | string | 忙时转移目的地 | Voicemail: voicemail           Extension: ext1000Mobile Number: mobile13999999   Custom Number: number9+5923333 |
 | \[enablemobile\] | string | 移动分机开关 | On：开启 off：关闭 |
 | \[ringsimultaneous\] | string | 移动分机同振 | On：开启 off：关闭 |
 | \[mobileprefix\] | string | 移动分机呼出前缀 | 空或者具体前缀 |
@@ -73,6 +73,7 @@
 | &lt;to&gt; | string | 被叫号码 | 5003 |
 | &lt;trunk&gt; | string | 呼出时通过的中继名 | Sip-trunk |
 | \[status\] | string | 通话状态 | Talking：通话进行中           Progress：呼叫处理中       Wait:呼叫等待中 |
+| &lt;agentid&gt; | string | 报工号是播报的号码 | 6362 |
 
 **可能出现的错误码：**30001
 
