@@ -36,6 +36,8 @@
 | \[breakoutkey\] | string | 按键DTMF | 范围：None, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, \*, \# |
 | \[breakoutaction\] | string | 按键目标 | 可选项：Hang up, Extension, Voicemail, IVR, Ring Group, Queue, Conference, Fax to Email, Dial by Name |
 | \[breakoutdest\] | string | 按键目标的最终目的地 |  |
+| \[\] | string |  |  |
+| \[\] | string |  |  |
 
 **响应示例：**
 

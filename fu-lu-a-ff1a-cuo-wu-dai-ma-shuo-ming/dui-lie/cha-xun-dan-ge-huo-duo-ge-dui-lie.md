@@ -22,7 +22,7 @@
 
 **响应示例：**
 
-{"status":"Success","queues":\[{"queuenumber":"6701","password":"","queuename":"6700","ringstrategy":"Ring All","failoveraction":"Hang up\[None\]","agents":"1000,1001,1002,1003,1004,1005,1006,","agenttimeout":"30","agentannounce":"\[None\]","wrapuptime":"30","ringinuse":"on","retry":"30","musiconhold":"\[None\]","maxwaittime":"1800","joinempty":"off","leavewhenempty":"on","joinannounce":"\[None\]","announcepos":"on","announcefreq":"30","announceholdtime":"on","userannounce":"","userannouncefreq":"30","breakoutkey":"None"}\]}
+{"status":"Success","queues":\[{"queuenumber":"6701","password":"","queuename":"6701","ringstrategy":"Ring All","failoveraction":"Hang up","agents":"1001,1002,1003,1004,1005,1006,","agenttimeout":"30","agentannounce":"\[None\]","wrapuptime":"30","ringinuse":"on","retry":"30","musiconhold":"\[None\]","maxwaittime":"1800","joinempty":"off","leavewhenempty":"on","joinannounce":"\[None\]","announcepos":"on","announcefreq":"30","announceholdtime":"on","userannounce":"\[None\]","userannouncefreq":"30","breakoutkey":"None","satisfactionsurvey":"None","idannouncement":"None"}\]}
 
 **响应参数说明：**
 
@@ -53,6 +53,8 @@
 | \[breakoutkey\] | string | 按键DTMF | None |
 | \[breakoutaction\] | string | 按键目标 |  |
 | \[breakoutdest\] | string | 按键目标的最终目的地 |  |
+| \[idannouncement\] | string | 报工号提示音 | None |
+| \[satisfactionsurvey\] | string | 满意度调查 | None |
 
 **可能出现的错误码：**10013，30001
 
