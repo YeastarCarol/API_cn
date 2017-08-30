@@ -6,7 +6,7 @@
 
 **请求方式：**POST
 
-**请求地址：**[https://192.168.5.150:8088/api/v1.0.1/queue/update?token=42af22de1f4b884950310d132232b4b5](https://192.168.5.150:8088/api/v1.0.1/queue/update?token=42af22de1f4b884950310d132232b4b5) HTTP/1.1
+**请求地址：**[https://192.168.5.150:8088/api/v1.0.1/queue/update?token=42af22de1f4b884950310d132232b4b5](https://192.168.5.150:8088/api/v1.0.1/queue/update?token=42af22de1f4b884950310d132232b4b5)
 
 **请求示例：**
 
