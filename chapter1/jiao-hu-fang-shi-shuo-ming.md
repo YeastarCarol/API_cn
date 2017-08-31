@@ -18,7 +18,7 @@ S系列IPPBX与应用服务器交互有两种方式。
 
 应用服务器为客户端，S系列IPPBX为服务端。以下为该种方式交互的使用场景：应用服务器发起呼叫、查询。
 
-![](/assets/import.png)
+![](/assets/https请求.png)
 
 二、S系列IPPBX主动向服务器推送消息
 
@@ -28,5 +28,5 @@ S系列IPPBX与应用服务器交互有两种方式。
 
 以下为该种方式交互的使用场景：S系列IPPBX向应用服务器推送分机振铃等状态。
 
-![](/assets/import2.png)
+![](/assets/https报告.png)
 
