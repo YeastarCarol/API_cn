@@ -28,7 +28,7 @@
 
 | 参数名称 | 类型 | 参数说明 | 参数值举例 |
 | :--- | :--- | :--- | :--- |
-| &lt;extinfos&gt; | Object | 对象 |  |
+| &lt;extinfos&gt; | object | 对象 |  |
 | &lt;extnumber&gt; | string | 分机号 | 1000 |
 | &lt;username&gt; | string | 用户名 | Ina Tang |
 | &lt;status&gt; | string | 分机当前状态 | Unavailable, Registered, Ringing, Busy, Hold, Malfunction, Idle, Fxsnoport |
