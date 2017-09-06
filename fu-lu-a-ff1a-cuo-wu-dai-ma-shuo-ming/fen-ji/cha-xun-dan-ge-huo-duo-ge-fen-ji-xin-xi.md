@@ -73,7 +73,7 @@
 | &lt;to&gt; | string | 被叫号码 | 5003 |
 | &lt;trunk&gt; | string | 呼出时通过的中继名 | Sip-trunk |
 | \[status\] | string | 通话状态 | Talking：通话进行中           Progress：呼叫处理中       Wait:呼叫等待中 |
-| &lt;agentid&gt; | string | 报工号时播报的号码 | 6362 |
+| &lt;agentid&gt; | string | 报工号时要播报的号码 | 6362 |
 
 **可能出现的错误码：**30001
 
