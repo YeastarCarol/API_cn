@@ -50,7 +50,7 @@
 | \[noanswerforward\] | string | 无应答转移开关 | on：开启 off：关闭 |
 | \[ntransferto\]                        \[ntransferext\]                       \[ntransferprefix\]                  \[ntransfernum\] | string | 无应答转移目的地 | Voicemail: Voicemail            Extension: 1000                  Mobile Number: Mobile139999999 Custom Number: number9+5923333 |
 | \[busyforward\] | string | 忙时转移开关 | on：开启 off：关闭 |
-| \[btransferto\]                        \[btransferext\]                      \[btransferprefix\]                  \[btransfernum\] | string | 忙时转移目的地 | Voicemail: Voicemail           Extension: Ext1000            Mobile Number: Mobile13999999   Custom Number: Number9+5923333 |
+| \[btransferto\]                        \[btransferext\]                      \[btransferprefix\]                  \[btransfernum\] | string | 忙时转移目的地 | Voicemail: Voicemail           Extension: Ext1000            Mobile Number: Mobile13999999   Custom Number: Number95923333 |
 | &lt;enablemobile&gt; | string | 移动分机开关 | on：开启 off：关闭 |
 | \[ringsimultaneous\] | string | 移动分机同振 | on：开启 off：关闭 |
 | \[mobileprefix\] | string | 移动分机呼出前缀 | 空或者具体前缀 |
