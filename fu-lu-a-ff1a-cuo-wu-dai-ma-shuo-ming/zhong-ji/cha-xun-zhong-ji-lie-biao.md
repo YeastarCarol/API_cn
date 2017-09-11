@@ -21,7 +21,7 @@
 | &lt;trunklist&gt; | object | 对象 |  |
 | &lt;trunkname&gt; | string | 中继名 | Sip trunk test |
 | &lt;status&gt; | string | 中继当前状态 | Fault |
-| &lt;type&gt; | string | 中继类型 | SIP-Register, FXO |
+| &lt;type&gt; | string | 中继类型 | SIP, FXO,GSM,BRI,E1 |
 | \[port\] | string | 中继端口 | Span1\_Port3 |
 
 **可能出现的错误码：**30001
@@ -30,7 +30,7 @@
 
 | FXO中继 | BRI/E1/T1/J1 | GSM/CDMA/UMTS | SIP/IAX |
 | :--- | :--- | :--- | :--- |
-| 1.fault                                     2.idle                                      3.busy | 1.fault                                   2.alarm                                 3.down                                   4.up | 1.poweroff                           2.alarm                                  3.nosim                                  4.nosignal                              5.pinerror                             6.unregister                         7.busy                                  8.其余:idle                          三个信号强度signal ≥ 2010 ≤ signal &lt; 20signal &lt; 10 | 1.registering                         2.failure                               3.registered \(unmonitored\) 4.disable                              5.unknown |
+| 1.Fault                                     2.Idle                                      3.Busy | 1.Fault                                  2.Alarm                                 3.Down                                   4.Up | 1.Poweroff                           2.Alarm                                  3.Nosim                                 4.Nosignal                             5.Pinerror                             6.Unregister                         7.Busy                                  8.其余:Idle                          三个信号强度signal ≥ 2010 ≤ signal &lt; 20signal &lt; 10 | 1.Registering                         2.Failure                               3.Registered \(unmonitored\) 4.Disable                              5.Unknown |
 
 
 
