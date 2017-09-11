@@ -66,14 +66,12 @@
 | &lt;from&gt; | string | 主叫号码 | 1000 |
 | &lt;to&gt; | string | 被叫号码 | 5003 |
 | \[ext\|outer\] | object | 来电的通话方，如果最终PBX某个分机接了，则为接听该来电的分机号。如果该通来电被转到外线接听则显示为去电。 | 6500 |
-| &lt;status&gt; | string | 通话状态 | Talking：通话进行中            Progress：呼叫处理中       Wait:呼叫等待中 |
 | &lt;trunk&gt; | string | 呼入时通过的中继名 | Sip-trunk |
 | \[outbound\] | object | 去电，呼出到外线的通话 | N/A |
 | &lt;outboundid&gt; | string | 去电的编号，依据该参数对来电进行转接、查询、挂断等操作 | 1 |
 | &lt;from&gt; | string | 主叫号码 | 1000 |
 | &lt;to&gt; | string | 被叫号码 | 5003 |
 | &lt;trunk&gt; | string | 呼出时通过的中继名 | Sip-trunk |
-| &lt;status&gt; | string | 通话状态 | Talking：通话进行中           Progress：呼叫处理中       Wait:呼叫等待中 |
 | \[ext\] | object | 内部分机互拨的通话方 |  |
 | &lt;extid&gt; | int | 和查询分机正在进行通话的分机号 | 1001 |
 
