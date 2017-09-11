@@ -55,7 +55,7 @@
 | \[ringsimultaneous\] | string | 移动分机同振 | on：开启 off：关闭 |
 | \[mobileprefix\] | string | 移动分机呼出前缀 | 空或者具体前缀 |
 | &lt;allowbeingmonitored&gt; | string | 允许被监听 | on：开启 off：关闭 |
-| &lt;monitormode&gt; | string | 监听模式 | 可选项：Disable, Extensive, Listen, Whisper, Barge-in |
+| &lt;monitormode&gt; | string | 监听模式 | 可选项：Disabled, Extensive, Listen, Whisper, Barge-in |
 | &lt;ringtimeout&gt; | string | 响铃超时 | 30 |
 | &lt;maxduration&gt; | string | 最大通话时长 | 600 |
 | &lt;dnd&gt; | string | 免打扰的开关 | on：开启 off：关闭 |
