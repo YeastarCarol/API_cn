@@ -21,7 +21,7 @@
 | &lt;trunklist&gt; | object | 对象 |  |
 | &lt;trunkname&gt; | string | 中继名 | Sip trunk test |
 | &lt;status&gt; | string | 中继当前状态 | Fault |
-| &lt;type&gt; | string | 中继类型 | SIP-Register, PSTN |
+| &lt;type&gt; | string | 中继类型 | SIP-Register, FXO |
 | \[port\] | string | 中继端口 | Span1\_Port3 |
 
 **可能出现的错误码：**30001
