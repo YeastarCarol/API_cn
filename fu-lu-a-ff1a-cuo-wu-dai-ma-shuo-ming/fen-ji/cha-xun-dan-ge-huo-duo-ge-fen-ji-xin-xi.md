@@ -41,16 +41,16 @@
 | &lt;loginpassword&gt; | string | 用户密码 | MD5加密后显示 |
 | &lt;email&gt; | string | 邮件地址 | ina@yeastar.com |
 | &lt;mobile&gt; | string | 电话号码 | 134899999999 |
-| &lt;language&gt; | string | 提示音语言 | Systemdefault |
+| &lt;language&gt; | string | 提示音语言 | System Default |
 | &lt;hasvoicemail&gt; | string | 是否启用语音邮箱 | on：开启 off：关闭 |
 | &lt;vmsecret&gt; | int | 语音邮箱密码 | 3000 |
 | &lt;enablevmtoemail&gt; | string | 是否发送语音邮件到邮箱 | on：开启 off：关闭 |
 | &lt;alwaysforward&gt; | string | 总是转移开关 | on：开启 off：关闭 |
-| \[atransferto\]                        \[atransferext\]                       \[atransferprefix\]                    \[atransfernum\] | string | 总是转移目的地 | Voicemail:  Voicemail          Extension: Extension 1000Mobile Number: Mobile139999999                                 Custom Number: Number9+5923333 |
+| \[atransferto\]                        \[atransferext\]                       \[atransferprefix\]                    \[atransfernum\] | string | 总是转移目的地，如果选择总是转移到分机，则需设置要转移到的分机号；如果总是转移到外线号码，则需设置要转移到的外线号码以及呼叫规则。 | Voicemail:  Voicemail          Extension: Extension 1000Mobile Number: Mobile139999999                                 Custom Number: Number95923333 |
 | \[noanswerforward\] | string | 无应答转移开关 | on：开启 off：关闭 |
-| \[ntransferto\]                        \[ntransferext\]                       \[ntransferprefix\]                  \[ntransfernum\] | string | 无应答转移目的地 | Voicemail: Voicemail            Extension: 1000                  Mobile Number: Mobile139999999                                 Custom Number: Number9+5923333 |
+| \[ntransferto\]                        \[ntransferext\]                       \[ntransferprefix\]                  \[ntransfernum\] | string | 无应答转移目的地，如果选择总是转移到分机，则需设置要转移到的分机号；如果总是转移到外线号码，则需设置要转移到的外线号码以及呼叫规则。 | Voicemail: Voicemail            Extension: 1000                  Mobile Number: Mobile139999999                                 Custom Number: Number95923333 |
 | \[busyforward\] | string | 忙时转移开关 | on：开启 off：关闭 |
-| \[btransferto\]                        \[btransferext\]                      \[btransferprefix\]                  \[btransfernum\] | string | 忙时转移目的地 | Voicemail: Voicemail           Extension: Ext1000            Mobile Number: Mobile13999999                                    Custom Number: Number95923333 |
+| \[btransferto\]                        \[btransferext\]                      \[btransferprefix\]                  \[btransfernum\] | string | 忙时转移目的地，如果选择总是转移到分机，则需设置要转移到的分机号；如果总是转移到外线号码，则需设置要转移到的外线号码以及呼叫规则。 | Voicemail: Voicemail           Extension: Ext1000            Mobile Number: Mobile13999999                                    Custom Number: Number95923333 |
 | &lt;enablemobile&gt; | string | 移动分机开关 | on：开启 off：关闭 |
 | \[ringsimultaneous\] | string | 移动分机同振 | on：开启 off：关闭 |
 | \[mobileprefix\] | string | 移动分机呼出前缀 | 空或者具体前缀 |
@@ -74,6 +74,8 @@
 | &lt;to&gt; | string | 被叫号码 | 5003 |
 | &lt;trunk&gt; | string | 呼出时通过的中继名 | Sip-trunk |
 | &lt;status&gt; | string | 通话状态 | Talking：通话进行中           Progress：呼叫处理中       Wait:呼叫等待中 |
+| \[ext\] | object | 内部分机互拨的通话方 |  |
+| &lt;extid&gt; | int | 和查询分机正在进行通话的分机 | 1001 |
 
 **可能出现的错误码：**30001
 
