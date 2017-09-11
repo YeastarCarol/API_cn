@@ -12,7 +12,7 @@
 
 **响应示例：**
 
-{"status":"Success","extlist":\[{"extnumber":"1000","status":"Idle","type":"FXS","port":"Span2-Port1","username":"1000"},{"extnumber":"1001","status":"Idle","type":"FXS","port":"Span2-Port2","username":"1001"},{"extnumber":"1002","status":"Registered","type":"SIP","username":"Amy"},{"extnumber":"1003","status":"Registered","type":"SIP","username":"1003"},{"extnumber":"1004","status":"Registered","type":"SIP","username":"1004"},{"extnumber":"1005","status":"Registered","type":"IAX","username":"1005"},{"extnumber":"1006","status":"Unavailable","type":"SIP","username":"Lisa"}\]}
+{"status":"Success","extlist":\[{"extnumber":"1000","status":"Registered","type":"SIP","username":"Jayson","agentid":""},{"extnumber":"1001","status":"Unavailable","type":"SIP","username":"Erwin Co","agentid":""},{"extnumber":"1010","status":"Unavailable","type":"SIP","username":"lulu","agentid":""},{"extnumber":"1101","status":"Registered","type":"SIP","username":"Ina Zoiper","agentid":""},{"extnumber":"1102","status":"Registered","type":"SIP","username":"Ina Eyebeam","agentid":""},{"extnumber":"1103","status":"Unavailable","type":"SIP","username":"1103","agentid":""},{"extnumber":"1104","status":"Unavailable","type":"SIP","username":"1104","agentid":""},{"extnumber":"1105","status":"Unavailable","type":"SIP","username":"1105","agentid":""},{"extnumber":"3002","status":"unavailable","type":"SIP","username":"3002","agentid":""}\]}
 
 **响应参数说明：**
 
@@ -24,6 +24,7 @@
 | &lt;type&gt; | string | 分机类型 | SIP, FXS |
 | \[port\] | string | 分机端口 | Span1\_Port3 |
 | &lt;username&gt; | string | 用户名 | Ina Tang |
+| \[agentid\] | string | 报工号所报的工号。默认为空，则播报分机号，如有设置则播报此项设置值。 |  |
 
 **可能出现的错误码：**30001
 
