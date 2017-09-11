@@ -20,10 +20,10 @@
 | \[username\] | string | 用户名 | 数字或字母，最大31位，可为空 |
 | \[callerid\] | string | 分机来电显示名称 | 数字字母，最大31位，可为空 |
 | \[registername\] | string | 注册名称 | 数字字母，最大31位，不为空 |
-| \[registerpassword\] | string | 注册密码 | 限制;&\"\'\&lt;&gt;\|\（空字符也不行）最大31位，不为空 |
+| \[registerpassword\] | string | 注册密码 | 限制;&\"\'\&lt;&gt;\|\（空字符也不行）最大31位，不可为空，且必须为数字和大小写字母组合 |
 | \[maxregistrations\] | string | 同时注册数 | 范围1, 2, 3, 4, 5 |
-| \[loginpassword\] | string | 用户密码 | 限制;&\"\'\&lt;&gt;\|\（空字符也不行）最少6位，最大63位 |
-| \[email\] | string | 邮件地址 | apple@yeastar.com |
+| \[loginpassword\] | string | 用户密码 | 限制;&\"\'\&lt;&gt;\|\（空字符也不行）最少6位，最大63位。不可为空，且必须为数字和大小写字母组合 |
+| \[email\] | string | 邮件地址 | apple@yeastar.com，可为空 |
 | \[mobile\] | string | 电话号码 | 最大31位，数字当呼叫转移到用户手机或者启用移动分机时，不可为空 |
 | \[hasvoicemail\] | string | 语音邮箱开关 | on：开启 off：关闭 |
 | \[enablevmtoemail\] | string | 是否发送语音邮件到邮箱 | on：开启 off：关闭 |
@@ -52,7 +52,7 @@
 | \[maxduration\] | string | 最大通话时长 | 可选项：Follow System, Unlimited, 60, 300, 600, 900, 1800, 3600, 6000 |
 | \[dnd\] | string | 免打扰的开关 | on：开启 off：关闭 |
 | \[callrestriction\] | string | 外呼限制 | on：开启 off：关闭 |
-| \[agentid\] | string | 报工号时要播报的号码，。非必填项，为空的时候则默认播报分机号。 | 6932 |
+| \[agentid\] | string | 报工号时要播报的号码。非必填项，为空的时候则默认播报分机号。 | 6932 |
 
 **可能出现的错误码：**10006，10007
 
