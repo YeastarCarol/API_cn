@@ -42,24 +42,24 @@
 | &lt;email&gt; | string | 邮件地址 | ina@yeastar.com |
 | &lt;mobile&gt; | string | 电话号码 | 134899999999 |
 | &lt;language&gt; | string | 提示音语言 | Systemdefault |
-| &lt;hasvoicemail&gt; | string | 是否启用语音邮箱 | On：开启 off：关闭 |
+| &lt;hasvoicemail&gt; | string | 是否启用语音邮箱 | on：开启 off：关闭 |
 | &lt;vmsecret&gt; | int | 语音邮箱密码 | 3000 |
-| &lt;enablevmtoemail&gt; | string | 是否发送语音邮件到邮箱 | On：开启 off：关闭 |
-| &lt;alwaysforward&gt; | string | 总是转移开关 | On：开启 off：关闭 |
+| &lt;enablevmtoemail&gt; | string | 是否发送语音邮件到邮箱 | on：开启 off：关闭 |
+| &lt;alwaysforward&gt; | string | 总是转移开关 | on：开启 off：关闭 |
 | \[atransferto\]                        \[atransferext\]                       \[atransferprefix\]                    \[atransfernum\] | string | 总是转移目的地 | Voicemail:   voicemail          Extension: ext1000Mobile Number: mobile139999999 Custom Number: number9+5923333 |
-| \[noanswerforward\] | string | 无应答转移开关 | On：开启 off：关闭 |
+| \[noanswerforward\] | string | 无应答转移开关 | on：开启 off：关闭 |
 | \[ntransferto\]                        \[ntransferext\]                       \[ntransferprefix\]                  \[ntransfernum\] | string | 无应答转移目的地 | Voicemail: voicemail            Extension: ext1000Mobile Number: mobile139999999 Custom Number: number9+5923333 |
-| \[busyforward\] | string | 忙时转移开关 | On：开启 off：关闭 |
+| \[busyforward\] | string | 忙时转移开关 | on：开启 off：关闭 |
 | \[btransferto\]                        \[btransferext\]                      \[btransferprefix\]                  \[btransfernum\] | string | 忙时转移目的地 | Voicemail: voicemail           Extension: ext1000Mobile Number: mobile13999999   Custom Number: number9+5923333 |
-| &lt;enablemobile&gt; | string | 移动分机开关 | On：开启 off：关闭 |
-| \[ringsimultaneous\] | string | 移动分机同振 | On：开启 off：关闭 |
+| &lt;enablemobile&gt; | string | 移动分机开关 | on：开启 off：关闭 |
+| \[ringsimultaneous\] | string | 移动分机同振 | on：开启 off：关闭 |
 | \[mobileprefix\] | string | 移动分机呼出前缀 | 空或者具体前缀 |
-| &lt;allowbeingmonitored&gt; | string | 允许被监听 | On：开启 off：关闭 |
+| &lt;allowbeingmonitored&gt; | string | 允许被监听 | on：开启 off：关闭 |
 | &lt;monitormode&gt; | string | 监听模式 | 可选项：Disable, Extensive, Listen, Whisper, Barge-in |
 | &lt;ringtimeout&gt; | string | 响铃超时 | 30 |
 | &lt;maxduration&gt; | string | 最大通话时长 | 600 |
-| &lt;dnd&gt; | string | 免打扰的开关 | On：开启 off：关闭 |
-| &lt;callrestriction&gt; | string | 外呼限制 | On：开启 off：关闭 |
+| &lt;dnd&gt; | string | 免打扰的开关 | on：开启 off：关闭 |
+| &lt;callrestriction&gt; | string | 外呼限制 | on：开启 off：关闭 |
 | &lt;agentid&gt; | string | 报工号时所要播报的号码，默认为空，播报分机号。如有设置，则播报所设置的号码。 | 6362 |
 | \[inbound\] | object | 来电，呼入的外线通话 | N/A |
 | &lt;inboundid&gt; | string | 来电的编号，依据该参数对来电进行转接、查询、挂断等操作 | 156785 |
