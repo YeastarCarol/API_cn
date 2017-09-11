@@ -22,7 +22,7 @@
 | &lt;trunkname&gt; | string | 中继名 | Sip trunk test |
 | &lt;status&gt; | string | 中继当前状态 | Fault |
 | &lt;type&gt; | string | 中继类型 | SIP-Register, PSTN |
-| \[port\] | string | 中继端口 | Span1\_Port3,192.168.5.150 |
+| \[port\] | string | 中继端口 | Span1\_Port3 |
 
 **可能出现的错误码：**30001
 
