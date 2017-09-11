@@ -25,33 +25,33 @@
 | \[loginpassword\] | string | 用户密码 | 限制;&\"\'\&lt;&gt;\|\（空字符也不行）最少6位，最大63位 |
 | \[email\] | string | 邮件地址 | Apple@yeastar.com |
 | \[mobile\] | string | 电话号码 | 最大31位，数字当呼叫转移到用户手机或者启用移动分机时，不可为空 |
-| \[hasvoicemail\] | string | 语音邮箱开关 | On：开启 off：关闭 |
-| \[enablevmtoemail\] | string | 是否发送语音邮件到邮箱 | On：开启 off：关闭 |
+| \[hasvoicemail\] | string | 语音邮箱开关 | on：开启 off：关闭 |
+| \[enablevmtoemail\] | string | 是否发送语音邮件到邮箱 | on：开启 off：关闭 |
 | \[vmsecret\] | string | 语音邮箱密码 | 数字，最大63位 |
-| \[alwaysforward\] | string | 总是转移开关 | On：开启 off：关闭 |
+| \[alwaysforward\] | string | 总是转移开关 | on：开启 off：关闭 |
 | \[atransferto\] | string | 总是转移目的地 | 可选项：Voicemail, Extension, Mobile Number, Custom Number |
 | \[atransferext\] | string | 目的地为分机时的分机id | 3002 |
 | \[atransferprefix\] | string | 目的地为自定义号码或用户手机时的呼出前缀 | 数字，最大7位 |
 | \[atransfernum\] | string | 目的地为自定义号码或用户手机时的呼出号码 | 数字，最大15位，转移目的地Custom Number不为空 |
-| \[noanswerforward\] | string | 无应答转移开关 | On：开启 off：关闭 |
+| \[noanswerforward\] | string | 无应答转移开关 | on：开启 off：关闭 |
 | \[ntransferto\] | string | 无应答转移目的地 | 可选项：Voicemail, Extension, Mobile Number, Custom Number |
 | \[ntransferext\] | string | 目的地为分机时的分机id | 3002 |
 | \[ntransferprefix\] | string | 目的地为自定义号码或用户手机时的呼出前缀 | 数字，最大15位，转移目的地Custom Number不为空 |
 | \[ntransfernum\] | string | 目的地为自定义号码或用户手机时的号码 | 数字，最大15位，不为空 |
-| \[busyforward\] | string | 忙时转移开关 | On：开启 off：关闭 |
+| \[busyforward\] | string | 忙时转移开关 | on：开启 off：关闭 |
 | \[btransferto\] | string | 忙时转移目的地 | 可选项：Voicemail, Extension, Mobile Number, Custom Number |
 | \[btransferext\] | string | 目的地为分机时的分机id | 3002 |
 | \[btransferprefix\] | string | 目的地为自定义号码或用户手机时的呼出前缀 | 数字，最大7位 |
 | \[btransfernum\] | string | 目的地为自定义号码或用户手机时的呼出号码 | 数字，最大15位，转移目的地Custom Number不为空 |
-| \[enablemobile\] | string | 移动分机开关 | On：开启 off：关闭 |
-| \[ringsimultaneous\] | string | 移动分机同振 | On：开启 off：关闭 |
+| \[enablemobile\] | string | 移动分机开关 | on：开启 off：关闭 |
+| \[ringsimultaneous\] | string | 移动分机同振 | on：开启 off：关闭 |
 | \[mobileprefix\] | string | 移动分机呼出前缀 | 数字，最大7位 |
-| \[allowbeingmonitored\] | string | 允许被监听 | On：开启 off：关闭 |
+| \[allowbeingmonitored\] | string | 允许被监听 | on：开启 off：关闭 |
 | \[monitormode\] | string | 监听别人的方式 | 可选项：Disabled, Extensive, Listen, Whisper, Barge-in |
 | \[ringtimeout\] | string | 响铃超时 | 15, 30, 60, 120, 300 |
 | \[maxduration\] | string | 最大通话时长 | 可选项：Follow System, Unlimited, 60, 300, 600, 900, 1800, 3600, 6000 |
-| \[dnd\] | string | 免打扰的开关 | On：开启 off：关闭 |
-| \[callrestriction\] | string | 外呼限制 | On：开启 off：关闭 |
+| \[dnd\] | string | 免打扰的开关 | on：开启 off：关闭 |
+| \[callrestriction\] | string | 外呼限制 | on：开启 off：关闭 |
 | \[agentid\] | string | 报工号时要播报的号码，。非必填项，为空的时候则默认播报分机号。 | 6932 |
 
 **可能出现的错误码：**10006，10007
