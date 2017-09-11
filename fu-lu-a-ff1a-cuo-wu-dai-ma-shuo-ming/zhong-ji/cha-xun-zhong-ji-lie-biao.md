@@ -18,7 +18,7 @@
 
 | 参数名称 | 类型 | 参数说明 | 参数值举例 |
 | :--- | :--- | :--- | :--- |
-| &lt;trunklist&gt; | object | 中继对象 |  |
+| &lt;trunklist&gt; | object | 对象 |  |
 | &lt;trunkname&gt; | string | 中继名 | Sip trunk test |
 | &lt;status&gt; | string | 中继当前状态 | Fault |
 | &lt;type&gt; | string | 中继类型 | SIP-Register, PSTN |
