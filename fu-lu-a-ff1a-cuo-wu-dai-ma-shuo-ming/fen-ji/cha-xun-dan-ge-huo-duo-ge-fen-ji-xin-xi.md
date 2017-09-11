@@ -72,7 +72,7 @@
 | &lt;to&gt; | string | 被叫号码 | 5003 |
 | &lt;trunk&gt; | string | 呼出时通过的中继名 | Sip-trunk |
 | \[ext\] | object | 内部分机互拨的通话方 |  |
-| &lt;extid&gt; | int | 和查询分机正在进行通话的分机号 | 1001 |
+| &lt;extid&gt; | int | 和查询分机正在通话的分机号 | 1001 |
 
 **可能出现的错误码：**30001
 
