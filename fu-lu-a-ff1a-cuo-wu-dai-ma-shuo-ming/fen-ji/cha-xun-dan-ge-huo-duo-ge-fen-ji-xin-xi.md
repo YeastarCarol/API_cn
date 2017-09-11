@@ -31,7 +31,7 @@
 | &lt;extinfos&gt; | object | 对象 |  |
 | &lt;extnumber&gt; | string | 分机号 | 1000 |
 | &lt;username&gt; | string | 用户名 | Ina Tang |
-| &lt;status&gt; | string | 分机当前状态 | Unavailable \n, Registered, Ringing, Busy, Hold, Malfunction, Idle, Fxsnoport |
+| &lt;status&gt; | string | 分机当前状态 | Unavailable, &lt;br&gt;Registered, Ringing, Busy, Hold, Malfunction, Idle, Fxsnoport |
 | &lt;type&gt; | string | 分机类型 | SIP,FXS |
 | &lt;port&gt; | string | 分机端口 | Span1\_Port3 |
 | &lt;callerid&gt; | string | 来电显示号码 | 1000 |
