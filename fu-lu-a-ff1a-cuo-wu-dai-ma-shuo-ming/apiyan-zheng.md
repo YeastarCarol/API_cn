@@ -58,6 +58,10 @@ S系列IPPBX API采用心跳包可以对IP, Port, URL进行更新。同时更新
 | &lt;port&gt; | string | 端口，此端口为第三方应用用于监听API发送的事件报告的端口。 | 0&lt;port&lt;65536 |
 | \[url\] | string | API应用方的URL。用来指定API向第三方应用发送事件报告的具体路径。如果不带此参数，则默认向第三方应用的IP地址发送事件报告 |  |
 
+响应示例：
+
+{"status":"Success"}
+
 ## 退出登录
 
 请求方式：POST
