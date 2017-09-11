@@ -75,7 +75,7 @@
 | &lt;trunk&gt; | string | 呼出时通过的中继名 | Sip-trunk |
 | &lt;status&gt; | string | 通话状态 | Talking：通话进行中           Progress：呼叫处理中       Wait:呼叫等待中 |
 | \[ext\] | object | 内部分机互拨的通话方 |  |
-| &lt;extid&gt; | int | 和查询分机正在进行通话的分机 | 1001 |
+| &lt;extid&gt; | int | 和查询分机正在进行通话的分机号 | 1001 |
 
 **可能出现的错误码：**30001
 
