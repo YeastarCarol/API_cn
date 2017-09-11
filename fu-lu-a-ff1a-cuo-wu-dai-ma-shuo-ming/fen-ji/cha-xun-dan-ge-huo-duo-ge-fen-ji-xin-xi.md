@@ -65,7 +65,6 @@
 | &lt;inboundid&gt; | string | 来电的编号，依据该参数对来电进行转接、查询、挂断等操作 | 156785 |
 | &lt;from&gt; | string | 主叫号码 | 1000 |
 | &lt;to&gt; | string | 被叫号码 | 5003 |
-| \[ext\|outer\] | object | 来电的通话方，如果最终PBX某个分机接了，则为接听该来电的分机号。如果该通来电被转到外线接听则显示为去电。 | 6500 |
 | &lt;trunk&gt; | string | 呼入时通过的中继名 | Sip-trunk |
 | \[outbound\] | object | 去电，呼出到外线的通话 | N/A |
 | &lt;outboundid&gt; | string | 去电的编号，依据该参数对来电进行转接、查询、挂断等操作 | 1 |
