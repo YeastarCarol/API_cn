@@ -28,7 +28,7 @@
 
 | 参数名称 | 类型 | 参数说明 | 参数值举例 |
 | :--- | :--- | :--- | :--- |
-| \[outbound\] | object | 去电，为呼出到外线的外部通话 | N/A |
+| &lt;outbound&gt; | object | 去电，为呼出到外线的外部通话 | N/A |
 | &lt;outboundid&gt; | string | 去电的编号，通过该参数对去电进行转接、查询、挂断等操作 | 1495705009.316 |
 | &lt;from&gt; | string | 主叫号码 | 1000 |
 | &lt;to&gt; | string | 被叫号码 | 41000 |
