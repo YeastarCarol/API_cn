@@ -22,7 +22,7 @@
 
 **响应示例：**
 
-{"status":"Failed","errno":"10003"}
+{"status":"Success","callid":"1505193218.96"}
 
 **响应参数说明：**
 
