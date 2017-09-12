@@ -30,8 +30,8 @@
 
 | 参数名称 | 类型 | 参数说明 | 参数值举例 |
 | :--- | :--- | :--- | :--- |
-| &lt;whisperer&gt; | string | 密语监听分机 | 1005 |
-| &lt;whisperedext&gt; | string | 被监听的分机 | 1002 |
+| &lt;whisperer&gt; | int | 密语监听的分机号 | 1005 |
+| &lt;whisperedext&gt; | int | 被监听的分机号 | 1002 |
 
 **响应示例：**
 
