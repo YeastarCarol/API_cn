@@ -29,12 +29,12 @@
 | 参数名称 | 类型 | 参数说明 | 参数值举例 |
 | :--- | :--- | :--- | :--- |
 | \[inbound\] | object | 来电，为由外线呼入的外部通话 | N/A |
-| &lt;inboundid&gt; | int | 来电的编号，通过该参数对来电进行转接、查询、挂断等操作，原有的通话标识 | 1 |
+| &lt;inboundid&gt; | int | 来电的编号，通过该参数对来电进行转接、查询、挂断等操作 | 1 |
 | &lt;from&gt; | string | 主叫号码 | 1000 |
 | &lt;to&gt; | string | 被叫号码 | 5003 |
 | \[callee\] | object | 来电的通话方，可能为分机、IVR、去电 | 1005 |
-| &lt;trunk&gt; | string | 呼入时通过的中继名 | Sip |
-| \[status\] | string | 通话状态 | Talking：通话进行中             Progress：呼叫处理中          Wait:呼叫等待中 |
+| &lt;trunk&gt; | string | 呼入时通过的中继名 | SIP\_142 |
+| &lt;status&gt; | string | 通话状态 | Talking：通话进行中             Progress：呼叫处理中          Wait:呼叫等待中 |
 
 **可能出现的错误码：**30001
 
