@@ -30,8 +30,8 @@
 | :--- | :--- | :--- | :--- |
 | &lt;inbound&gt; | object | 来电，为由外线呼入的外部通话 | N/A |
 | &lt;inboundid&gt; | string | 来电的编号，通过该参数对来电进行转接、查询、挂断等操作 | 1495698433.203 |
-| &lt;from&gt; | string | 主叫号码 | 1000 |
-| &lt;to&gt; | string | 被叫号码 | 1002 |
+| &lt;from&gt; | int | 主叫号码 | 1000 |
+| &lt;to&gt; | int | 被叫号码 | 1002 |
 | &lt;callee&gt; | object | 来电的通话方，可能为分机、IVR、去电 | 1002 |
 | &lt;trunk&gt; | string | 呼入时通过的中继名 | SIP\_142 |
 | &lt;status&gt; | string | 通话状态 | Talking：通话进行中             Progress：呼叫处理中          Wait：呼叫等待中 |
