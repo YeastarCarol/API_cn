@@ -30,8 +30,8 @@
 
 | 参数名称 | 类型 | 参数说明 | 参数值举例 |
 | :--- | :--- | :--- | :--- |
-| &lt;bargein&gt; | string | 强插监听分机 | 1000 |
-| &lt;bargedext&gt; | string | 被监听的分机 | 1002 |
+| &lt;bargein&gt; | int | 强插监听的分机号 | 1000 |
+| &lt;bargedext&gt; | int | 被监听的分机号 | 1002 |
 
 **响应示例：**
 
