@@ -20,8 +20,8 @@
 | \[promptrepeat\] | string | 提示音播放次数 | 范围：1,2,3,4,5 |
 | \[responsetimeout\] | int | 响应超时时间 | 范围：1,2,3,4,5,6,7,8,9,10 |
 | \[digittimeout\] | int | 按键超时时间 | 范围：1,2,3,4,5,6,7,8,9,10 |
-| \[dialext\] | string | 允许从分机呼出 | On：开启 off：关闭 |
-| \[dialtocheckvoicemail\] | string | 允许查阅语音留言 | On：开启 off：关闭 |
+| \[dialext\] | string | 允许从分机呼出 | on：开启 off：关闭 |
+| \[dialtocheckvoicemail\] | string | 允许查阅语音留言 | on：开启 off：关闭 |
 
 **响应示例：**
 
