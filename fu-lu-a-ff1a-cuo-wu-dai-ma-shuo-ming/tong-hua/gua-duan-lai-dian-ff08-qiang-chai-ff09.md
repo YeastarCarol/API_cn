@@ -24,7 +24,7 @@
 
 | 参数名称 | 类型 | 参数说明 | 参数值举例 |
 | :--- | :--- | :--- | :--- |
-| &lt;status&gt; | string | 呼入挂断结果 | Success或者Failed |
+| &lt;status&gt; | string | 挂断来电结果 | Success或者Failed |
 
 **可能出现的错误码：**10007，10004，30001
 
