@@ -33,7 +33,7 @@
 | 参数名称 | 类型 | 参数说明 | 参数值举例 |
 | :--- | :--- | :--- | :--- |
 | &lt;status&gt; | string | IVR拨打外线结果 | Success或者Failed |
-| &lt;callid&gt; | string | 通话唯一标识符 | 1495700406.266 |
+| &lt;callid&gt; | string | 该通通话的id | 1495700406.266 |
 
 
 
