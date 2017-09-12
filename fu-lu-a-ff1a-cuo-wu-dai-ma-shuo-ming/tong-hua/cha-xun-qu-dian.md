@@ -30,8 +30,8 @@
 | :--- | :--- | :--- | :--- |
 | &lt;outbound&gt; | object | 去电，为呼出到外线的外部通话 | N/A |
 | &lt;outboundid&gt; | string | 去电的编号，通过该参数对去电进行转接、查询、挂断等操作 | 1495705009.316 |
-| &lt;from&gt; | string | 主叫号码 | 1000 |
-| &lt;to&gt; | string | 被叫号码 | 41000 |
+| &lt;from&gt; | int | 主叫号码 | 1000 |
+| &lt;to&gt; | int | 被叫号码 | 41000 |
 | &lt;trunk&gt; | string | 呼出时通过的中继名称 | SIP-142 |
 | &lt;status&gt; | string | 通话状态 | Talking：通话进行中            Progress：呼叫处理中          Wait:呼叫等待中 |
 
