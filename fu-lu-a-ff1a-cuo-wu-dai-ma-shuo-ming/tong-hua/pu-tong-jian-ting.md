@@ -30,8 +30,8 @@
 
 | 参数名称 | 类型 | 参数说明 | 参数值举例 |
 | :--- | :--- | :--- | :--- |
-| &lt;listener&gt; | string | 监听分机 | 1005 |
-| &lt;listenedext&gt; | string | 被监听分机 | 1002 |
+| &lt;listener&gt; | int | 监听的分机 | 1005 |
+| &lt;listenedext&gt; | int | 被监听的分机 | 1002 |
 
 **响应示例：**
 
