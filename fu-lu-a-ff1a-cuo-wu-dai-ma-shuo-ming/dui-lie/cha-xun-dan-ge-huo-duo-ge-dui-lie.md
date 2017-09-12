@@ -38,14 +38,14 @@
 | &lt;agenttimeout&gt; | string | 坐席响铃时间 | 30 |
 | &lt;agentannounce&gt; | string | 坐席应答提示音 | \[None\] |
 | &lt;wrapuptime&gt; | int | 休息时间 | 30 |
-| &lt;ringinuse&gt; | string | 使用中振铃 | on |
+| &lt;ringinuse&gt; | string | 使用中振铃 | on：开启 off：关闭 |
 | &lt;retry&gt; | int | 重试间隔时间 | 30 |
 | &lt;musiconhold&gt; | string | 等待音乐 | \[None\] |
 | &lt;maxwaittime&gt; | int | 最大等待时间 | 30 |
 | &lt;joinempty&gt; | string | 无座席时允许呼入 | \[None\] |
-| &lt;leavewhenempty&gt; | string | 无座席时结束等待 | on |
+| &lt;leavewhenempty&gt; | string | 无座席时结束等待 | on：开启 off：关闭 |
 | \[joinannounce\] | string | 进入队列提示音 | \[None\] |
-| &lt;announcepos&gt; | string | 公告当前位置 | on |
+| &lt;announcepos&gt; | string | 公告当前位置 | on：开启 off：关闭 |
 | &lt;announcefreq&gt; | string | 用户公告频率 | 30 |
 | &lt;announceholdtime&gt; | int | 公告等待时间 | 30 |
 | &lt;userannounce&gt; | string | 系统公告提示音 | \[None\] |
