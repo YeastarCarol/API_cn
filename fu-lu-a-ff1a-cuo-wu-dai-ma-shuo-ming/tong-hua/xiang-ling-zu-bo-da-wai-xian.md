@@ -29,7 +29,7 @@
 | 参数名称 | 类型 | 参数说明 | 参数值举例 |
 | :--- | :--- | :--- | :--- |
 | &lt;status&gt; | string | 请求结果 | Success或者Failed |
-| &lt;callerid&gt; | string | 通话唯一标识符 |  |
+| &lt;callerid&gt; | string | 该通通话的id |  |
 
 
 
