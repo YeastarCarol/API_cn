@@ -24,14 +24,14 @@
 | \[agents\] | string | 固定座席 | 1000，1001 |
 | \[agenttimeout\] | int | 坐席响铃时间 | 范围：10, 20, 30, 40, 50 |
 | \[wrapuptime\] | int | 休息时间 | 范围：10, 20, 30, 40, 50 |
-| \[ringinuse\] | string | 使用中振铃 | On：开启 off：关闭 |
+| \[ringinuse\] | string | 使用中振铃 | on：开启 off：关闭 |
 | \[retry\] | int | 重试间隔时间 | 范围：10, 20, 30, 40, 50 |
 | \[maxwaittime\] | int | 最大等待时间 | 范围：300, 600, 900, 1200, 1800 |
-| \[joinempty\] | string | 无座席时允许呼入 | On：开启 off：关闭 |
-| \[leavewhenempty\] | string | 无座席时结束等待 | On：开启 off：关闭 |
-| \[announcepos\] | string | 公告当前位置 | On：开启 off：关闭 |
+| \[joinempty\] | string | 无座席时允许呼入 | on：开启 off：关闭 |
+| \[leavewhenempty\] | string | 无座席时结束等待 | on：开启 off：关闭 |
+| \[announcepos\] | string | 公告当前位置 | on：开启 off：关闭 |
 | \[announcefreq\] | string | 用户公告频率 | 范围：0, 15, 30, 45, 60, 120, 180, 240, 300, 600, 1200 |
-| \[announceholdtime\] | int | 公告等待时间 | On：开启 off：关闭 |
+| \[announceholdtime\] | int | 公告等待时间 | on：开启 off：关闭 |
 | \[userannouncefreq\] | int | 系统公告频率 | 范围：0, 15, 30, 45, 60, 120, 180, 240, 300, 600, 1200 |
 | \[breakoutkey\] | string | 按键DTMF | 范围：None, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, \*, \# |
 | \[breakoutaction\] | string | 按键目标 | 可选项：Hang up, Extension, Voicemail, IVR, Ring Group, Queue, Conference, Fax to Email, Dial by Name |
