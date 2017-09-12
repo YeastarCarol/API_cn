@@ -32,7 +32,7 @@
 | &lt;queuenumber&gt; | int | 队列号码 | 6701 |
 | &lt;queuename&gt; | string | 队列名称 | Productteam |
 | &lt;password&gt; | string | 加入动态坐席的密码 | 123456 |
-| &lt;ringstrategy&gt; | string | 响铃策略 | 全部响铃，线性响铃，顺序响铃，最近最少被叫响铃，最少接通响铃，随机响铃 |
+| &lt;ringstrategy&gt; | string | 响铃策略 | Ring All, Least Recent, Fewest Calls, Random, Rrmemory, Linear |
 | &lt;failoveraction&gt; | string | 呼入失败目的地 | Hang up |
 | \[agents\] | string | 固定座席 | 1000，1001 |
 | &lt;agenttimeout&gt; | string | 坐席响铃时间 | 30 |
