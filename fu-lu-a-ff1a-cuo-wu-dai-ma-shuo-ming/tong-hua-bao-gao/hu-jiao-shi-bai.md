@@ -4,7 +4,7 @@
 
 呼叫失败的定义：只要是被叫方未接通的状况都定义为呼叫失败，转到语音留言算已接通。
 
-不管是API控制的呼叫还是手动拨号的呼叫，只要呼叫失败都会触发。
+不管是API控制的呼叫还是手动拨号的呼叫，只要呼叫失败都会触发该事件。
 
 **报告示例：**
 
@@ -23,6 +23,17 @@
 **4.分机A打分机B，B拒接（call forward禁用）：**
 
 {"action":"CallFailed","reason":"User busy","callid":"1495770583.355"}
+
+**报告参数说明：**
+
+| 参数名称 | 类型 | 参数说明 | 参数值举例 |
+| :--- | :--- | :--- | :--- |
+| &lt;action&gt; | string | 状态 | CallFailed |
+| &lt;reason&gt; | string | 呼叫失败原因 | NO Outbound Restriction, DND, Line unreachable, User busy |
+| \[inboundid\|outbound\] | string | 来电或去电编号 | 1495771030.366 |
+| \[from\] | string | 来电的原始主叫号码 | 1806354000 |
+| \[to\] | string | 来电的原始被叫号码 | 1237456 |
+| &lt;callid&gt; | string | 该通通话的id | 1495771030.365 |
 
 #### 
 
