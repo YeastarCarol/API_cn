@@ -24,7 +24,7 @@
 | \[weekdays\] | string | 类型为自定义时的选项 | 范围：1,2,3,4,5,6,0                1-6:周一到周六，0：为周日 |
 | \[repeats\] | string | 重复次数 | 范围：1,2,3 |
 | \[repeatinterval\] | string | 重复时间 | 5（单位分钟） |
-| \[prompt\] | string | 闹铃提示音 | helloworld必须为自定义提示音 |
+| \[prompt\] | string | 闹铃提示音 | 此提示音必须为自定义提示音，不加字段则用系统默认的macroform-cold\_day提示音 |
 
 **响应示例：**
 
