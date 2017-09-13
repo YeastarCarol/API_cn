@@ -24,7 +24,7 @@
 | &lt;type&gt; | string | 分机类型 | SIP, FXS |
 | \[port\] | string | 分机端口，当分机为模拟分机时则显示该项。 | Span1\_Port3 |
 | &lt;username&gt; | string | 用户名 | Ina Tang |
-| \[agentid\] | string | 报工号所报的工号。默认为空，则播报分机号，如有设置则播报此项设置值。 | 6103 |
+| \[agentid\] | string | 报工号时要播报的号码。此参数默认为空，表示播报分机号。 | 6103 |
 
 **可能出现的错误码：**30001
 
