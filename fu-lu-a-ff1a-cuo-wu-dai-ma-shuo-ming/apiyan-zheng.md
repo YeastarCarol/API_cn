@@ -34,7 +34,7 @@ S系列IPPBX API采用用户名和密码的方式验证，只有用户名和密�
 | &lt;status&gt; | string | 请求状态 | Success，Failure |
 | &lt;token&gt; | string | 调用接口凭证，所有的API请求都需用到该token。 | 1ec8bde364f8e37c0dd14f476fba114c |
 
-注：所有的API请求都需要带上登录返回的token，且该token有效时长为30分钟，30分钟内如果API和第三方应用没有任何事件交互（如：第三方应用发送API请求；API向第三方应用发送事件报告），则该token将被IPPBX系统清除。可通过心跳包接口延长token的有效时长，每发送一次心跳包可使token的有效时长延长30分钟。
+注：所有的API请求都需要带上登录返回的token，且该token有效时长为30分钟，30分钟内如果API和第三方应用没有任何事件交互（如：第三方应用发送API请求），则该token将被IPPBX系统清除。可通过心跳包接口延长token的有效时长，每发送一次心跳包可使token的有效时长延长30分钟。
 
 可能出现的错误码：20003
 
