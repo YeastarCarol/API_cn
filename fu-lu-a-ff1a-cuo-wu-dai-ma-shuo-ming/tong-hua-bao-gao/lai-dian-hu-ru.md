@@ -10,7 +10,7 @@
 
 | 参数名称 | 类型 | 参数说明 | 参数值举例 |
 | :--- | :--- | :--- | :--- |
-| &lt;action&gt; | string | 来电通知 | Incoming |
+| &lt;action&gt; | string | 来电呼入 | Incoming |
 | &lt;callid&gt; | string | 该通通话的id | 1495707950.331 |
 | &lt;inbound&gt; | object | 来电 |  |
 | &lt;trunk&gt; | string | 通过的中继名称 | sip-142 |
