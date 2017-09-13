@@ -20,7 +20,7 @@
 | :--- | :--- | :--- | :--- |
 | &lt;ivrid&gt; | string | IVR号码 | 6000 |
 | &lt;extid&gt; | string | 要呼叫的分机号 | 2000 |
-| &lt;autoanswer&gt; | string | 是否自动接听\(只针对SIP线路有效，且需要话机支持，此参数不带则默认为不自动应答\) | Yes/No |
+| &lt;autoanswer&gt; | string | 是否自动接听\(只针对SIP线路有效，且需要话机支持，此参数不带则默认为不自动应答\) | yes/no |
 
 **响应示例：**
 
