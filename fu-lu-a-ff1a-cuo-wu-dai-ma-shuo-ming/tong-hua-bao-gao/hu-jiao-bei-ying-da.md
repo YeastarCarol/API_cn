@@ -12,7 +12,7 @@
 
 | 参数名称 | 类型 | 参数说明 | 参数值举例 |
 | :--- | :--- | :--- | :--- |
-| &lt;action&gt; | string | 状态 | ANSWER |
+| &lt;action&gt; | string | 状态 | ANSWERED |
 | \[extid\] | string | 主叫分机号 | 1002 |
 | \[inboundid\] | string | 来电的编号 | 1495771030.366 |
 | \[from\] | string | 来电的原始主叫号码 | 1806354000 |
