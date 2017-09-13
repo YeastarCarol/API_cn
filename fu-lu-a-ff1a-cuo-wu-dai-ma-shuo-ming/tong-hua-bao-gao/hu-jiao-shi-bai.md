@@ -31,7 +31,7 @@
 | &lt;action&gt; | string | 状态 | CallFailed |
 | &lt;reason&gt; | string | 呼叫失败原因 | NO Outbound Restriction, DND, Line unreachable, User busy |
 | &lt;callid&gt; | string | 该通通话的id | 1495420603.349 |
-| \[ext\] | int | 呼叫失败的分机号 | 1002 |
+| \[ext\] | int | 呼出失败的分机号 | 1002 |
 
 #### 
 
