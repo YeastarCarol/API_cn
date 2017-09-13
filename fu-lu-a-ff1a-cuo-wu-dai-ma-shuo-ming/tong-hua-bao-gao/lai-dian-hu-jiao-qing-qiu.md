@@ -11,7 +11,7 @@
 | 参数名称 | 类型 | 参数说明 | 参数值举例 |
 | :--- | :--- | :--- | :--- |
 | &lt;action&gt; | string | 来电通知 | Invite |
-| &lt;callid&gt; | string | 通话唯一标识符 | 1495707950.331 |
+| &lt;callid&gt; | string | 该通通话的id | 1495707950.331 |
 | &lt;inbound&gt; | object | 来电 |  |
 | &lt;trunk&gt; | string | 通过的中继名称 | sip-142 |
 | &lt;inboundid&gt; | string | 来电编号 | 1495707950.331 |
