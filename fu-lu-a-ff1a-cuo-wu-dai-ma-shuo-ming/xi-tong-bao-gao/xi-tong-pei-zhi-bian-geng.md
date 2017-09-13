@@ -8,3 +8,14 @@
 
 {"action":"ConfigChange","type":"trunk","trunkname":"SIP-142","operation":"del"}
 
+**报告参数说明：**
+
+| **参数名称** | **类型** | **参数说明** | **参数值举例** |
+| :--- | :--- | :--- | :--- |
+| &lt;configchange&gt; | string | 配置变更 | N/A |
+| &lt;type&gt; | string | 类型 | trunk,extension |
+| &lt;trunkname&gt; | string | 配置有变更的中继名称 | SIP-142 |
+| &lt;operation&gt; | string | 操作 | add,del,update |
+
+
+
