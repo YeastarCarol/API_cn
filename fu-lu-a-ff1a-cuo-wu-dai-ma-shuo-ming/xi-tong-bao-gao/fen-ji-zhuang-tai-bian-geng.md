@@ -25,5 +25,13 @@
 
 {"action":"ExtensionStatus","extension":"1010","status":"Registered"}
 
+**报告参数说明：**
+
+| 参数名称 | 类型 | 参数说明 | 参数值举例 |
+| :--- | :--- | :--- | :--- |
+| &lt;action&gt; | string | 分机状态变更 | ExtensionStatus |
+| &lt;extension&gt; | int | 状态变更的分机号 | 1010 |
+| &lt;status&gt; | string | 变更后的状态 | Registered |
+
 
 
