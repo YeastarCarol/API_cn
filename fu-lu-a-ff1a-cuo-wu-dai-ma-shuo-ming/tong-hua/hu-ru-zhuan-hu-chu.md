@@ -18,7 +18,7 @@
 
 | 参数名称 | 类型 | 参数说明 | 参数值举例 |
 | :--- | :--- | :--- | :--- |
-| &lt;inboundid&gt; | string | 外线来电编号 | 1495698843.215 |
+| &lt;inboundid&gt; | string | 呼入来电编号 | 1495698843.215 |
 | &lt;outto&gt; | string | 转移到的外线号码 | 22003 |
 | &lt;fromext&gt; | string | 采用哪个分机的呼出权限 | 1000 |
 
