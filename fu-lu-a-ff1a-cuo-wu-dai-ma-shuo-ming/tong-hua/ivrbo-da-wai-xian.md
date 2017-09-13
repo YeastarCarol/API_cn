@@ -20,7 +20,7 @@
 
 | 参数名称 | 类型 | 参数说明 | 参数值举例 |
 | :--- | :--- | :--- | :--- |
-| &lt;ivrid&gt; | string | IVR号码 | 6500 |
+| &lt;ivrid&gt; | int | IVR号码 | 6500 |
 | &lt;outto&gt; | string | 呼出的被叫号码\(匹配呼出规则\) | 41000 |
 | &lt;fromext&gt; | string | 采用哪个分机的权限 | 1000 |
 

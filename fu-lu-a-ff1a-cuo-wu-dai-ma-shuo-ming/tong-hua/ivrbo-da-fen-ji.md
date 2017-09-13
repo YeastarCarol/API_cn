@@ -18,7 +18,7 @@
 
 | 参数名称 | 类型 | 参数说明 | 参数值举例 |
 | :--- | :--- | :--- | :--- |
-| &lt;ivrid&gt; | string | IVR号码 | 6500 |
+| &lt;ivrid&gt; | int | IVR号码 | 6500 |
 | &lt;extid&gt; | string | 要呼叫的分机号 | 1002 |
 | &lt;autoanswer&gt; | string | 是否自动接听\(只针对SIP线路有效，且需要话机支持，此参数不带则默认为不自动应答\) | yes/no |
 
