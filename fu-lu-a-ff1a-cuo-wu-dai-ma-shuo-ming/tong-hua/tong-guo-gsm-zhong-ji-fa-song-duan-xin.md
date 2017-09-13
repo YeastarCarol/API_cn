@@ -28,7 +28,7 @@
 
 **指令发送正确：**{"status":"Success","smsid":"18396210850-1502874159"}
 
-**短信发送成功：**{"status":"Success","smsid":"18396210850-1502874159"}
+**短信发送成功：**{"action":"sms-send","status":"Succeed","smsid":"18396210850-1502874445"}
 
 **短信发送失败：**{"action":"sms-send","status":"Failed","smsid":"18396210850-1502874159"}
 
