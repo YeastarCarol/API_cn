@@ -2,7 +2,7 @@
 
 通过本接口可以给分机设置闹铃。
 
-说明：可以多个分机一起添加闹铃同一闹铃，分机之间使用逗号隔开。
+说明：可以多个分机一起添加闹铃同一闹铃，分机之间使用逗号隔开。注：一次只能设置一个闹铃，如一次设置多个则只有第一个生效。
 
 如：{"extid":"1000,1001","wakeup":\[{"time":"00:45","type":"onetime","repeats":"3","repeatinterval":"5"}\]}
 
@@ -20,7 +20,7 @@
 | :--- | :--- | :--- | :--- |
 | &lt;extid&gt; | string | 分机号 | 1000 |
 | &lt;wakeup&gt; | object | 对象 |  |
-| &lt;time&gt; | string | 时间 | 11：22 |
+| &lt;time&gt; | string | 时间 | 11:22 |
 | &lt;type&gt; | string | 类型，当设置为onetime时，闹铃完所设置的重复次数之后该条闹铃将被自动删除 | 范围：onetime, every day, custom |
 | \[weekdays\] | string | 类型为自定义时的选项 | 范围：1234560  1-6表示周一到周六，0：为周日 |
 | \[repeats\] | string | 闹铃的重复次数 | 范围：1，2，3 |
