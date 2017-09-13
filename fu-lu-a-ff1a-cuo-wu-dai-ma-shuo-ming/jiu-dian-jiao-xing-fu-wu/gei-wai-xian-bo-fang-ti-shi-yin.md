@@ -22,7 +22,7 @@
 | :--- | :--- | :--- | :--- |
 | &lt;outto&gt; | string | 外线号码 | 41000 |
 | &lt;prompt&gt; | string | 自定义音乐 | hello111 |
-| \[fromext\] | string | 借用呼出权限的分机号 | 1000 |
+| \[fromext\] | int | 借用呼出权限的分机号 | 1000 |
 
 **响应示例：**
 
