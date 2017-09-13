@@ -32,7 +32,7 @@
 
 | 参数名称 | 类型 | 参数说明 | 参数值举例 |
 | :--- | :--- | :--- | :--- |
-| &lt;status&gt; | string | 请求结果 | Success或者Failed |
+| &lt;status&gt; | string | 分机播放提示音结果 | Success或者Failed |
 
 **可能出现的错误码：**10004，10023，10015，10006，30001
 
