@@ -23,7 +23,7 @@
 | &lt;time&gt; | string | 时间 | 11:22 |
 | &lt;type&gt; | string | 类型，当设置为onetime时，闹铃完所设置的重复次数之后该条闹铃将被自动删除 | 范围：onetime, everyday, custom |
 | \[weekdays\] | string | 类型为自定义时的选项 | 范围：1,2,3,4,5,6,0  1-6表示周一到周六，0：为周日 |
-| \[repeats\] | string | 闹铃的重复次数 | 范围：1，2，3 |
+| \[repeats\] | string | 闹铃的重复次数 | 范围：1,2,3 |
 | \[repeatinterval\] | string | 重复时间，设置好重复次数和重复时间后，话机响铃一次后，间隔所设置的重复时间后会再次响铃 | 5（单位分钟） |
 | \[prompt\] | string | 闹铃提示音 | helloworld必须为自定义提示音，不加字段则用默认macroform-cold\_day |
 
