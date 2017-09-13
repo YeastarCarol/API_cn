@@ -14,7 +14,7 @@
 | :--- | :--- | :--- | :--- |
 | &lt;action&gt; | string | 状态 | Transfer |
 | \[extid\] | string | 发起转移的分机号 | 1002 |
-| \[inboundid\] | string | 来电的编号 | 1495771030.366 |
+| \[inboundid\|outbound\] | string | 来电的编号 | 1495771030.366 |
 | \[from\] | string | 来电的原始主叫号码 | 1806354000 |
 | \[to\] | string | 来电的原始被叫号码 | 1237456 |
 | &lt;callid&gt; | string | 该通通话的id | 1495771030.365 |
