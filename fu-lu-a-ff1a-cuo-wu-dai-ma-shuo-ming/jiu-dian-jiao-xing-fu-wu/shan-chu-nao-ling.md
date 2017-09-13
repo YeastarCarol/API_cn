@@ -27,7 +27,7 @@
 
 | 参数名称 | 类型 | 参数说明 | 参数值举例 |
 | :--- | :--- | :--- | :--- |
-| &lt;status&gt; | string | 查询闹铃结果 | Success或者Failed |
+| &lt;status&gt; | string | 删除闹铃结果 | Success或者Failed |
 
 **可能出现的错误码：**10021，30001
 
