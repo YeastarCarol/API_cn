@@ -75,7 +75,6 @@
     * [来电呼入](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/tong-hua-bao-gao/lai-dian-hu-ru.md)
     * [按键信息](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/tong-hua-bao-gao/an-jian-xin-xi.md)
     * [CDR](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/tong-hua-bao-gao/cdr.md)
-    * [全局录音获取](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/tong-hua-bao-gao/quan-ju-lu-yin-huo-qu.md)
     * [播放提示音结束事件](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/tong-hua-bao-gao/bo-fang-ti-shi-yin-jie-shu-shi-jian.md)
     * [满意度调查结果事件](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/tong-hua-bao-gao/man-yi-du-diao-cha-jie-guo-shi-jian.md)
 * [附录A：错误代码说明](1.md)
