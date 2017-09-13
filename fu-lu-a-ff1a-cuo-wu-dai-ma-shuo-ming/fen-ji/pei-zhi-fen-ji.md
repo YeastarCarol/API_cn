@@ -51,7 +51,7 @@
 | \[maxduration\] | string | 最大通话时长 | 可选项：Follow System, Unlimited, 60, 300, 600, 900, 1800, 3600, 6000。 |
 | \[dnd\] | string | 免打扰的开关 | on：开启 off：关闭 |
 | \[callrestriction\] | string | 外呼限制 | on：开启 off：关闭 |
-| \[agentid\] | string | 报工号时要播报的号码。非必填项，为空的时候则默认播报分机号。 | 6932 |
+| \[agentid\] | string | 报工号时要播报的号码。此参数默认为空，表示播报分机号。 | 6932 |
 
 **可能出现的错误码：**10006，10007
 
