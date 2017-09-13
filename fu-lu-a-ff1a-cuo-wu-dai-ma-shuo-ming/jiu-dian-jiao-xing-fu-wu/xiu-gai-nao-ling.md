@@ -16,14 +16,14 @@
 
 | 参数名称 | 类型 | 参数说明 | 参数值举例 |
 | :--- | :--- | :--- | :--- |
-| &lt;extid&gt; | string | 分机号 | 1000 |
-| \[time\] | string | 要修改的时间 | 11：00 |
+| &lt;extid&gt; | int | 分机号 | 1000 |
+| \[time\] | string | 要修改的时间 | 11:00 |
 | \[wakeup\] | object |  |  |
-| \[time\] | string | 时间 | 11：22 |
-| \[type\] | string | 类型 | 范围：onetime, every day, custom |
-| \[weekdays\] | string | 类型为自定义时的选项 | 范围：12345601-6:周一到周六，0：为周日 |
-| \[repeats\] | string | 重复次数 | 范围：1，2，3 |
-| \[repeatinterval\] | string | 重复时间 | 1（单位分钟） |
+| \[time\] | string | 时间 | 11:22 |
+| \[type\] | string | 类型 | 范围：onetime, everyday, custom |
+| \[weekdays\] | string | 类型为自定义时的选项 | 范围：1,2,3,4,5,6,0                1-6:周一到周六，0：为周日 |
+| \[repeats\] | string | 重复次数 | 范围：1,2,3 |
+| \[repeatinterval\] | string | 重复时间 | 5（单位分钟） |
 | \[prompt\] | string | 闹铃提示音 | helloworld必须为自定义提示音 |
 
 **响应示例：**
