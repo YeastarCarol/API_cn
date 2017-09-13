@@ -29,7 +29,7 @@
 | \[talkduraction\] | string | 接听时长 | 9 |
 | \[srctrunkname\] | string | 源中继名称 | Sps129 |
 | \[dstrunkname\] | string | 目的中继名称 | Sps128 |
-| \[status\] | string | 通话状态 | ANSWEREDNOANSWERFAILEDVOICEMAIL |
+| \[status\] | string | 通话状态 | ANSWERED,  NOANSWER,   FAILED,VOICEMAIL |
 | \[type\] | string | 通话类型 | Inbound, Outbound, Internal, Callback, Transfer |
 | \[pincode\] | int | 密码 | 122 |
 | \[recording\] | string | 全局录音文件名 | hello001 |
