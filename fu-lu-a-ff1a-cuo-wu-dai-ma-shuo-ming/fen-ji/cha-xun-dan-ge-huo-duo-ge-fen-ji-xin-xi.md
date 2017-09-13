@@ -60,7 +60,7 @@
 | &lt;maxduration&gt; | string | 最大通话时长 | 600 |
 | &lt;dnd&gt; | string | 免打扰的开关 | on：开启 off：关闭 |
 | &lt;callrestriction&gt; | string | 外呼限制 | on：开启 off：关闭 |
-| &lt;agentid&gt; | string | 报工号时所要播报的号码，默认为空，播报分机号。如有设置，则播报所设置的号码。 | 6362 |
+| &lt;agentid&gt; | string | 报工号时要播报的号码。此参数默认为空，表示播报分机号。 | 6362 |
 | \[inbound\] | object | 来电，呼入的外线通话 | N/A |
 | &lt;inboundid&gt; | string | 来电的编号，依据该参数对来电进行转接、查询、挂断等操作 | 156785 |
 | &lt;from&gt; | string | 主叫号码 | 1000 |
