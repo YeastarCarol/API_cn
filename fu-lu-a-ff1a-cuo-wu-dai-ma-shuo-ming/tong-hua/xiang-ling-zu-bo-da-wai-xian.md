@@ -16,7 +16,7 @@
 
 | 参数名称 | 类型 | 参数说明 | 参数值举例 |
 | :--- | :--- | :--- | :--- |
-| &lt;ringgroupid&gt; | string | 响铃组号码 | 6200 |
+| &lt;ringgroupid&gt; | int | 响铃组号码 | 6200 |
 | &lt;outto&gt; | string | 要拨打的外线号码 | 118396210850 |
 | &lt;fromext&gt; | string | 采用哪个分机的权限 | 1000000 |
 
