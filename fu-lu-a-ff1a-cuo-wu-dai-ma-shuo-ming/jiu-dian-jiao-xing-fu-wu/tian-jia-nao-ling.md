@@ -18,7 +18,7 @@
 
 | 参数名称 | 类型 | 参数说明 | 参数值举例 |
 | :--- | :--- | :--- | :--- |
-| &lt;extid&gt; | string | 分机号 | 1000 |
+| &lt;extid&gt; | int | 分机号 | 1000 |
 | &lt;wakeup&gt; | object | 对象 |  |
 | &lt;time&gt; | string | 时间 | 11:22 |
 | &lt;type&gt; | string | 类型，当设置为onetime时，闹铃完所设置的重复次数之后该条闹铃将被自动删除 | 范围：onetime, everyday, custom |
