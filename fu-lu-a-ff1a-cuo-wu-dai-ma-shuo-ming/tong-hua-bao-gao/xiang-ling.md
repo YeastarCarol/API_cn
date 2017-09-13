@@ -20,7 +20,7 @@
 | :--- | :--- | :--- | :--- |
 | &lt;action&gt; | string | 状态 | RING |
 | \[extid\] | string | 正在响铃的分机号 | 1000 |
-| \[outbound\] | string | 来电编号/去电编号 | 1495771030.366 |
+| \[inbound\|outbound\] | string | 来电编号/去电编号 | 1495771030.366 |
 | \[from\] | string | 原始主叫号码 | 1806354000 |
 | \[to\] | string | 原始被叫号码 | 1237456 |
 | \[callid\] | string | 该通通话的id | 1495771030.365 |
