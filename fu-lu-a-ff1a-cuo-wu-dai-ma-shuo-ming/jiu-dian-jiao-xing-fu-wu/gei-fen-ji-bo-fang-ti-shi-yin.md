@@ -18,7 +18,7 @@
 
 | 参数名称 | 类型 | 参数说明 | 参数值举例 |
 | :--- | :--- | :--- | :--- |
-| &lt;extid&gt; | string | 分机号 | 1000 |
+| &lt;extid&gt; | int | 分机号 | 1000 |
 | &lt;prompt&gt; | string | 自定义音乐 | hello111 |
 | \[autoanswer\] | string | 自动接听 | yes/no |
 
