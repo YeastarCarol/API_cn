@@ -22,7 +22,7 @@
 
 **4.分机A打分机B，B拒接（call forward禁用）：**
 
-{"action":"CallFailed","reason":"User busy","callid":"1495770583.355"}
+{"action":"CallFailed","reason":"User alerting, no answer","callid":"1505294245.162"}
 
 **报告参数说明：**
 
