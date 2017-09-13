@@ -14,7 +14,7 @@
 
 {"trunk":"GSM-trunk","phonenumber":"18396210850","message":"%E4%BD%A0%E5%A5%BD "}
 
-**注：短信内容必须经过URL编码。可参考：**[http://tool.oschina.net/encode?type=4](http://tool.oschina.net/encode?type=4)
+**注：短信内容必须经过URL编码。中文可参考：**[http://tool.oschina.net/encode?type=4](http://tool.oschina.net/encode?type=4)
 
 **请求参数说明：**
 
