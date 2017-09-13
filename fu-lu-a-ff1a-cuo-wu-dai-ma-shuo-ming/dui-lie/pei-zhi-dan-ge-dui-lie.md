@@ -37,7 +37,7 @@
 | \[breakoutaction\] | string | 按键目标 | 可选项：Hang up, Extension, Voicemail, IVR, Ring Group, Queue, Conference, Fax to Email, Dial by Name |
 | \[breakoutdest\] | string | 按键目标的最终目的地 |  |
 | \[idannouncement\] | string | 报工号提示音文件名。没有设置则默认不播报。此字段默认为none。注：查询队列的时候此参数为必须返回参数。 | None |
-| \[satisfactionsurvey\] | string | 满意度调查提示音 | None |
+| \[satisfactionsurvey\] | string | 满意度调查需要播放的提示音文件名。没有设置则默认不播报。此字段默认为none。 | None |
 
 **响应示例：**
 
