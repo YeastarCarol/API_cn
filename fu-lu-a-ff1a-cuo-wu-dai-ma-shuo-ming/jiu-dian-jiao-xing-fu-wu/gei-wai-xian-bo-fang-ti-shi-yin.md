@@ -6,8 +6,6 @@
 
 **说明：**PSTN外线拨出去时，不管终端话机有没有接起线路已经接通，这属于特殊情况，此接口对PSTN无效。
 
-说明：只能单个分机操作
-
 **请求方式：**POST
 
 **请求地址：**[https://192.168.5.150:8088/api/v1.0.0/outbound/playprompt?token=7d20390952e15eb72b0a1df7172de65c](https://192.168.5.150:8088/api/v1.0.0/outbound/playprompt?token=7d20390952e15eb72b0a1df7172de65c)
