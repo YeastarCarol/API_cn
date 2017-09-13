@@ -21,7 +21,7 @@
 | &lt;extid&gt; | string | 分机号 | 1000 |
 | &lt;wakeup&gt; | object | 对象 |  |
 | &lt;time&gt; | string | 时间 | 11:22 |
-| &lt;type&gt; | string | 类型，当设置为onetime时，闹铃完所设置的重复次数之后该条闹铃将被自动删除 | 范围：onetime, every day, custom |
+| &lt;type&gt; | string | 类型，当设置为onetime时，闹铃完所设置的重复次数之后该条闹铃将被自动删除 | 范围：onetime, everyday, custom |
 | \[weekdays\] | string | 类型为自定义时的选项 | 范围：1234560  1-6表示周一到周六，0：为周日 |
 | \[repeats\] | string | 闹铃的重复次数 | 范围：1，2，3 |
 | \[repeatinterval\] | string | 重复时间，设置好重复次数和重复时间后，话机响铃一次后，间隔所设置的重复时间后会再次响铃 | 5（单位分钟） |
