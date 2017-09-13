@@ -10,9 +10,9 @@
 
 **请求示例：**
 
-{"extid": "1000","prompt":"hello111","autoanswer":"no"}
+**播放一段提示应：**{"extid": "1000","prompt":"hello111","autoanswer":"no"}
 
-{ "extid": "1000000","prompt":"1+queue1+queue2","autoanswer":"no"}
+**播放多段拼接提示音：**{ "extid": "1000000","prompt":"1+queue1+queue2","autoanswer":"no"}
 
 **请求参数说明：**
 
