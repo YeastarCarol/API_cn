@@ -53,7 +53,7 @@
 | \[breakoutkey\] | string | 按键DTMF | None |
 | \[breakoutaction\] | string | 按键目标 |  |
 | \[breakoutdest\] | string | 按键目标的最终目的地 |  |
-| \[idannouncement\] | string | 报工号提示音 | None |
+| \[idannouncement\] | string | 报工号提示音文件名。没有设置则默认不播报。此字段默认为none。注：查询队列的时候此参数为必须返回参数。 | None |
 | \[satisfactionsurvey\] | string | 满意度调查 | None |
 
 **可能出现的错误码：**10013，30001
