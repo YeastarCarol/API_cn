@@ -21,7 +21,7 @@
 | 参数名称 | 类型 | 参数说明 | 参数值举例 |
 | :--- | :--- | :--- | :--- |
 | &lt;cdrid&gt; | string | CDR编号 | 123456789 |
-| \[callid\] | string | 通话唯一标识 | 2000 |
+| &lt;callid&gt; | string | 通话唯一标识 | 2000 |
 | \[timestart\] | string | 开始时间 | 2017-05-25 22:26:20 |
 | \[callfrom\] | string | 主叫号码 | 1000 |
 | \[callto\] | string | 被叫号码 | 18000000 |
