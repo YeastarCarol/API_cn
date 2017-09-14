@@ -19,7 +19,7 @@
 | 参数名称 | 类型 | 参数说明 | 参数值举例 |
 | :--- | :--- | :--- | :--- |
 | &lt;extlist&gt; | Object | 分机对象 |  |
-| &lt;extnumber&gt; | string | 分机号 | 1000 |
+| &lt;extnumber&gt; | int | 分机号 | 1000 |
 | &lt;status&gt; | string | 分机当前状态 | Unavailable, Registered, Ringing, Busy, Hold, Malfunction, Idle, Fxsnoport |
 | &lt;type&gt; | string | 分机类型 | SIP, FXS |
 | \[port\] | string | 分机端口，当分机为模拟分机时则显示该项。 | Span1\_Port3 |
