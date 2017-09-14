@@ -22,9 +22,9 @@
 | :--- | :--- | :--- | :--- |
 | &lt;cdrid&gt; | string | CDR编号 | 123456789 |
 | &lt;callid&gt; | string | 通话唯一标识 | 2000 |
-| \[timestart\] | string | 开始时间 | 2017-05-25 22:26:20 |
-| \[callfrom\] | string | 主叫号码 | 1000 |
-| \[callto\] | string | 被叫号码 | 18000000 |
+| \[timestart\] | string | 开始时间 | 2017-09-14 09:30:15 |
+| \[callfrom\] | string | 主叫号码 | 102 |
+| \[callto\] | string | 被叫号码 | 1000 |
 | \[callduraction\] | string | 通话时长 | 29 |
 | \[talkduraction\] | string | 接听时长 | 29 |
 | \[srctrunkname\] | string | 源中继名称 | Apple\_test |
