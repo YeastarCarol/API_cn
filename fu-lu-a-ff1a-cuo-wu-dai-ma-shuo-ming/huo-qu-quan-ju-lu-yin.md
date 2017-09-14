@@ -10,7 +10,7 @@
 
 **请求方式：**POST
 
-**请求地址：**[https://192.168.5.150:8088/api/v1.0.1/recording/get\_random?token=3efd4cd64e0d06e84a98230601428106](https://192.168.5.150:8088/api/v1.0.1/recording/get_random?token=3efd4cd64e0d06e84a98230601428106)
+**请求地址：**[https://192.168.5.150:8088/api/](https://192.168.5.150:8088/api/v1.0.1/recording/get_random?token=3efd4cd64e0d06e84a98230601428106){version}[/recording/get\_random?token=3efd4cd64e0d06e84a98230601428106](https://192.168.5.150:8088/api/v1.0.1/recording/get_random?token=3efd4cd64e0d06e84a98230601428106)
 
 **请求示例：**
 
