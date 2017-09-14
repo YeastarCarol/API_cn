@@ -46,7 +46,7 @@ S系列IPPBX API采用用户名和密码的方式验证，只有用户名和密�
 
 请求方式：POST
 
-请求地址：[https://192.168.5.150:8088/api/v1.0.0/heartbeat?token=48a7d7481a5355aa4fb5dc285edeb40e](https://192.168.5.150:8088/api/v1.0.0/heartbeat?token=48a7d7481a5355aa4fb5dc285edeb40e)
+请求地址：[https://192.168.5.150:8088/api/](https://192.168.5.150:8088/api/v1.0.0/heartbeat?token=48a7d7481a5355aa4fb5dc285edeb40e){version}[/heartbeat?token=48a7d7481a5355aa4fb5dc285edeb40e](https://192.168.5.150:8088/api/v1.0.0/heartbeat?token=48a7d7481a5355aa4fb5dc285edeb40e)
 
 请求示例：
 
@@ -72,7 +72,7 @@ S系列IPPBX API采用用户名和密码的方式验证，只有用户名和密�
 
 请求示例：
 
-[https://192.168.5.150:8088/api/v1.0.0/logout?token=48a7d7481a5355aa4fb5dc285edeb40e](https://192.168.5.150:8088/api/v1.0.0/logout?token=48a7d7481a5355aa4fb5dc285edeb40e)
+[https://192.168.5.150:8088/api/](https://192.168.5.150:8088/api/v1.0.0/logout?token=48a7d7481a5355aa4fb5dc285edeb40e){version}[/logout?token=48a7d7481a5355aa4fb5dc285edeb40e](https://192.168.5.150:8088/api/v1.0.0/logout?token=48a7d7481a5355aa4fb5dc285edeb40e)
 
 响应示例：
 
