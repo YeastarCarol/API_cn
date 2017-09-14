@@ -1,13 +1,13 @@
 # Summary
 
 * [S系列IPPBX API使用指南](sxi-lie-ippbx-api-shi-yong-shuo-ming.md)
+* [接口说明及更新记录](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/apiyan-zheng/jie-kou-shuo-ming-ji-geng-xin-ji-lu.md)
 * [关于本指南](README.md)
 * [二次开发接口简介](chapter1.md)
   * [交互方式说明](chapter1/jiao-hu-fang-shi-shuo-ming.md)
   * [S系列API和AMI接口说明](chapter1/sxi-lie-api-he-ami-jie-kou-shuo-ming.md)
   * [启用S系列IPPBX API功能](chapter1/qi-yong-s-xi-lie-ippbx-api.md)
 * [API接口示例](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming.md)
-  * [接口说明及更新记录](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/apiyan-zheng/jie-kou-shuo-ming-ji-geng-xin-ji-lu.md)
   * [API验证](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/apiyan-zheng.md)
   * [系统](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/xi-tong.md)
     * [查询设备信息](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/xi-tong/cha-xun-she-bei-xin-xi.md)
