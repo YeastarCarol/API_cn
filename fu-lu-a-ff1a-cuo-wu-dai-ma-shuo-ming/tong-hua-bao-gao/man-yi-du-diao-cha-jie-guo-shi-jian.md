@@ -10,7 +10,7 @@
 
 | 参数名称 | 类型 | 参数说明 | 参数值举例 |
 | :--- | :--- | :--- | :--- |
-| &lt;surveyresult&gt; | String | 满意度调查按键结果 | 1 |
+| &lt;surveyresult&gt; | string | 满意度调查按键结果 | 1 |
 
 
 
