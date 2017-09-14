@@ -10,11 +10,11 @@
 
 **2.分机拨打外线CDR：**
 
-{"action":"NewCdr","callid":"1495779454.374","timestart":"2017-05-25 22:17:34","callfrom":"1002","callto":"41004","desttrunkname":"sip-142","callduraction":"4","talkduraction":"4","status":"ANSWERED","type":"Outbound"}
+{"action":"NewCdr","callid":"1505352615.274","timestart":"2017-09-14 09:30:15","callfrom":"1000","callto":"91000","desttrunkname":"Apple\_test","callduraction":"29","talkduraction":"29","status":"ANSWERED","type":"Outbound","pincode":"1000","recording":"20170914093038-1505352615.274-1000-91000-Outbound.wav"}
 
 **3.外线呼入到分机：**
 
-{"action":"NewCdr","callid":"1495779821.377","timestart":"2017-05-25 22:23:41","callfrom":"1000","callto":"1002","srctrunkname":"sip-142","callduraction":"18","talkduraction":"9","status":"ANSWERED","type":"Inbound"}
+{"action":"NewCdr","callid":"1505352445.265","timestart":"2017-09-14 09:27:25","callfrom":"102","callto":"1000","srctrunkname":"Apple\_test","callduraction":"38","talkduraction":"29","status":"ANSWERED","type":"Inbound","recording":"20170914092747-1505352445.265-102-1000-Inbound.wav"}
 
 **报告参数说明**
 
@@ -27,12 +27,12 @@
 | \[callto\] | string | 被叫号码 | 18000000 |
 | \[callduraction\] | string | 通话时长 | 18 |
 | \[talkduraction\] | string | 接听时长 | 9 |
-| \[srctrunkname\] | string | 源中继名称 | Sps129 |
-| \[dstrunkname\] | string | 目的中继名称 | Sps128 |
+| \[srctrunkname\] | string | 源中继名称 | Apple\_test |
+| \[dstrunkname\] | string | 目的中继名称 | Apple\_test |
 | \[status\] | string | 通话状态 | ANSWERED,  NOANSWER,   FAILED,VOICEMAIL |
 | \[type\] | string | 通话类型 | Inbound, Outbound, Internal, Callback, Transfer |
-| \[pincode\] | int | 密码 | 122 |
-| \[recording\] | string | 全局录音文件名 | hello001 |
+| \[pincode\] | int | 密码 | 1000 |
+| \[recording\] | string | 全局录音文件名 | 20170914092747-1505352445.265-102-1000-Inbound.wav |
 
 
 
