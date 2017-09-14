@@ -10,7 +10,7 @@
 
 **请求方式：**POST
 
-**请求地址：**[https://192.168.5.150:8088/api/v1.0.0/extension/dial\_outbound?token=285f99b2221c6b8c12d52eba3a88a5f7](https://192.168.5.150:8088/api/v1.0.0/extension/dial_outbound?token=285f99b2221c6b8c12d52eba3a88a5f7)
+**请求地址：**[https://192.168.5.150:8088/api/](https://192.168.5.150:8088/api/v1.0.0/extension/dial_outbound?token=285f99b2221c6b8c12d52eba3a88a5f7){version}[/extension/dial\_outbound?token=285f99b2221c6b8c12d52eba3a88a5f7](https://192.168.5.150:8088/api/v1.0.0/extension/dial_outbound?token=285f99b2221c6b8c12d52eba3a88a5f7)
 
 **请求示例：**
 
