@@ -1,5 +1,6 @@
 # Summary
 
+* [S系列IPPBX API使用指南](sxi-lie-ippbx-api-shi-yong-shuo-ming.md)
 * [关于本指南](README.md)
 * [二次开发接口简介](chapter1.md)
   * [交互方式说明](chapter1/jiao-hu-fang-shi-shuo-ming.md)
