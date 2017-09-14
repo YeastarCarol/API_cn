@@ -18,7 +18,7 @@
 
 **请求地址：**
 
-[https://192.168.5.150:8088/api/v1.0.1/inbound/accept?token=15bc7e4a0934023e79a557e15ff1f69e](https://192.168.5.150:8088/api/v1.0.0/inbound/accept?token=15bc7e4a0934023e79a557e15ff1f69e)
+[https://192.168.5.150:8088/api/](https://192.168.5.150:8088/api/v1.0.0/inbound/accept?token=15bc7e4a0934023e79a557e15ff1f69e){version}[/inbound/accept?token=15bc7e4a0934023e79a557e15ff1f69e](https://192.168.5.150:8088/api/v1.0.0/inbound/accept?token=15bc7e4a0934023e79a557e15ff1f69e)
 
 **请求示例：**
 
