@@ -20,7 +20,7 @@
 | &lt;promtp&gt; | string | 播放的提示音文件 | appletest |
 | &lt;callid&gt; | string | 该通通话的id | 1495780325.384 |
 | \[outbound\] | object | 来电或去电 |  |
-| \[trunkname\] | string | 通过的中继名称 | sip-142 |
+| &lt;trunkname&gt; | string | 通过的中继名称 | sip-142 |
 
 
 
