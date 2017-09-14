@@ -6,7 +6,7 @@
 
 **请求方式：**POST
 
-**请求地址：**[https://192.168.5.150:8088/api/v1.0.1/ringgroup/dial\_outbound?token=172970ee3f5f92fe65cd6bc17663b1f7](https://192.168.5.150:8088/api/v1.0.1/ringgroup/dial_outbound?token=172970ee3f5f92fe65cd6bc17663b1f7)
+**请求地址：**[https://192.168.5.150:8088/api/](https://192.168.5.150:8088/api/v1.0.1/ringgroup/dial_outbound?token=172970ee3f5f92fe65cd6bc17663b1f7){version}[/ringgroup/dial\_outbound?token=172970ee3f5f92fe65cd6bc17663b1f7](https://192.168.5.150:8088/api/v1.0.1/ringgroup/dial_outbound?token=172970ee3f5f92fe65cd6bc17663b1f7)
 
 **请求示例：**
 
