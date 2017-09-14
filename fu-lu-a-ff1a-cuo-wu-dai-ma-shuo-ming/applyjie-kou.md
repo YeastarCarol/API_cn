@@ -1,6 +1,6 @@
-# **Apply接口**
+# 应用（Apply）**接口**
 
-使用API配置分机或者IVR等时，配置会自动Apply，为避免配置时频繁Apply出现Apply不生效情况，用户可在统一配置完毕后，调用此接口统一Apply一次。
+使用API配置分机或者IVR等时，配置成功后会自动应用。为避免使用API配置时频繁应用出现应用不生效情况，用户可在统一配置完毕后，调用此接口统一应用一次。
 
 **请求方式：**POST**  
 请求地址：**[https://192.168.5.150:8088/api/{version}/apply?token=4444ed5e207395035e4ec29a6bf09ece](https://192.168.5.150:8088/api/{version}/apply?token=4444ed5e207395035e4ec29a6bf09ece)
