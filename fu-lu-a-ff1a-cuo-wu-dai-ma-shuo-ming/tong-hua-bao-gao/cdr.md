@@ -25,8 +25,8 @@
 | \[timestart\] | string | 开始时间 | 2017-05-25 22:26:20 |
 | \[callfrom\] | string | 主叫号码 | 1000 |
 | \[callto\] | string | 被叫号码 | 18000000 |
-| \[callduraction\] | string | 通话时长 | 18 |
-| \[talkduraction\] | string | 接听时长 | 9 |
+| \[callduraction\] | string | 通话时长 | 29 |
+| \[talkduraction\] | string | 接听时长 | 29 |
 | \[srctrunkname\] | string | 源中继名称 | Apple\_test |
 | \[dstrunkname\] | string | 目的中继名称 | Apple\_test |
 | \[status\] | string | 通话状态 | ANSWERED,  NOANSWER,   FAILED,VOICEMAIL |
