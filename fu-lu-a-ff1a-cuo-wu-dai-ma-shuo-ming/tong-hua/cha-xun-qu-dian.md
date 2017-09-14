@@ -4,7 +4,7 @@
 
 **请求方式：**POST
 
-**请求地址：**[https://192.168.5.150:8088/api/v1.0.0/outbound/query?token=6cad9cee6e2ad94570636e7b3690aeb2](https://192.168.5.150:8088/api/v1.0.0/outbound/query?token=6cad9cee6e2ad94570636e7b3690aeb2)
+**请求地址：**[https://192.168.5.150:8088/api/](https://192.168.5.150:8088/api/v1.0.0/outbound/query?token=6cad9cee6e2ad94570636e7b3690aeb2){version}[/outbound/query?token=6cad9cee6e2ad94570636e7b3690aeb2](https://192.168.5.150:8088/api/v1.0.0/outbound/query?token=6cad9cee6e2ad94570636e7b3690aeb2)
 
 **请求示例：**
 
