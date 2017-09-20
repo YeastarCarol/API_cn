@@ -2,6 +2,7 @@
 
 * [S系列IPPBX API使用指南](sxi-lie-ippbx-api-shi-yong-shuo-ming.md)
 * [关于本指南](README.md)
+* [接口说明及更新记录](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/apiyan-zheng/jie-kou-shuo-ming-ji-geng-xin-ji-lu.md)
 * [二次开发接口简介](chapter1.md)
   * [交互方式说明](chapter1/jiao-hu-fang-shi-shuo-ming.md)
   * [S系列API和AMI接口说明](chapter1/sxi-lie-api-he-ami-jie-kou-shuo-ming.md)
@@ -79,6 +80,5 @@
     * [CDR](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/tong-hua-bao-gao/cdr.md)
     * [播放提示音结束事件](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/tong-hua-bao-gao/bo-fang-ti-shi-yin-jie-shu-shi-jian.md)
     * [满意度调查结果事件](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/tong-hua-bao-gao/man-yi-du-diao-cha-jie-guo-shi-jian.md)
-* [接口说明及更新记录](fu-lu-a-ff1a-cuo-wu-dai-ma-shuo-ming/apiyan-zheng/jie-kou-shuo-ming-ji-geng-xin-ji-lu.md)
 * [附录A：错误代码说明](1.md)
 
