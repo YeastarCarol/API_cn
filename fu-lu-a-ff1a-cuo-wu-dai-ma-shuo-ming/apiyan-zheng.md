@@ -21,7 +21,7 @@ S系列IPPBX API采用用户名和密码的方式验证，只有用户名和密�
 | &lt;username&gt; | string | 在IPPBX 二次开发接口界面设置的用户名。 | api |
 | &lt;password&gt; | string | 在IPPBX二次开发接口界面设置的密码。 | MD5加密之后的32位小写密码 |
 | &lt;port&gt; | string | 端口号，此端口号为第三方应用用于监听API发送的事件报告的端口号。 | 0&lt;port&lt;65536 |
-| \[url\] | string | API应用方的URL。跟在IP地址后面用来指定API向第三方应用发送事件报告的具体路径。如果不带此参数，则默认向第三方应用的IP地址发送事件报告。 |  |
+| \[url\] | string | API应用方的URL。跟在IP地址后面的用来指定API向第三方应用发送事件报告的具体路径。如果不带此参数，则默认向第三方应用的IP地址发送事件报告。 |  |
 
 响应示例：
 
