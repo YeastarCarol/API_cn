@@ -47,9 +47,7 @@
 
 | 参数名称 | 类型 | 参数说明 | 参数值举例 |
 | :--- | :--- | :--- | :--- |
-| &lt;status&gt; | string | IVR设置结果 | Success或者Failed |
+| &lt;status&gt; | string | 队列设置结果 | Success或者Failed |
 
 **可能出现的错误码：**10013，10019，30001
-
-;
 
