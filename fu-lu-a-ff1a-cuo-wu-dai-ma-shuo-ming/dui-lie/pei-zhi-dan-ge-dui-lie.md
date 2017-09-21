@@ -16,7 +16,7 @@
 | :--- | :--- | :--- | :--- |
 | &lt;queueid&gt; | int | 请求时的队列号码 | 6200 |
 | \[queuenumber\] | int | 修改后的队列号码 | 6200 |
-| \[queuename\] | string | 队列名称 | 限制:!$\(\)\/\#;,\"=&lt;&gt;&'\`^%@{}\|\（空字符也不行）最大31位，不为空 |
+| \[queuename\] | string | 队列名称 | 限制: ! $ \( \) / \# ; , \[ \] \ "= &lt; &gt;& ' \` ^ % @ { } \| （空字符也不行）最大31位，不为空 |
 | \[password\] | string | 加入动态坐席的密码 | 数字，最大127位 |
 | \[ringstrategy\] | string | 响铃策略 | 可选项：Ring All, Least Recent, Fewest Calls, Random, Rrmemory, Linear |
 | \[failoveraction\] | string | 呼入失败目的地 | 可选项：Hang up, Extension, Voicemail, IVR, Ring Group, Queue, Conference, Fax to Email, Dial by Name |
