@@ -19,9 +19,9 @@
 | \[username\] | string | 用户名 | 数字或字母，最大31位，可为空 |
 | \[callerid\] | string | 分机来电显示名称 | 数字或字母，最大31位，可为空 |
 | \[registername\] | string | 注册名称 | 数字或字母，最大31位，不为空 |
-| \[registerpassword\] | string | 注册密码 | 限制;&\"\'\&lt;&gt;\|\（空字符也不行）最大31位，不可为空，且必须为数字和大小写字母组合 |
+| \[registerpassword\] | string | 注册密码 | 限制; & " ' \ &lt; &gt; \` \|（空字符也不行）最大31位，不可为空，且必须为数字和大小写字母组合 |
 | \[maxregistrations\] | string | 同时注册数 | 范围1, 2, 3, 4, 5 |
-| \[loginpassword\] | string | 用户密码 | 限制;&\"\'\&lt;&gt;\|\（空字符也不行）最少6位，最大63位。不可为空，且必须为数字和大小写字母组合 |
+| \[loginpassword\] | string | 用户密码 | 限制; & " ' \ &lt; &gt; \` \|（空字符也不行）最少6位，最大63位。不可为空，且必须为数字和大小写字母组合 |
 | \[email\] | string | 邮件地址 | apple@yeastar.com，可为空 |
 | \[mobile\] | string | 电话号码 | 最大31位，数字当呼叫转移到用户手机或者启用移动分机时，不可为空 |
 | \[hasvoicemail\] | string | 语音邮箱开关 | on：开启 off：关闭 |
