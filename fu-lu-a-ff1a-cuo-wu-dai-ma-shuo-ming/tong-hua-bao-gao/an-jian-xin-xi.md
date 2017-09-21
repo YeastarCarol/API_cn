@@ -14,7 +14,7 @@
 | :--- | :--- | :--- | :--- |
 | &lt;action&gt; | string | 按键事件 | DTMF |
 | &lt;callid&gt; | string | 该通通话的id | 1495707950.331 |
-| \[inbound\|outbound\] | object | 来电或去电 |  |
+| \[inbound&#124;outbound\] | object | 来电或去电 |  |
 | &lt;trunk&gt; | string | 通过的中继名称 | sip-142 |
 | &lt;inboundid&gt; | string | 来电编号 | 1495707950.331 |
 | &lt;from&gt; | string | 原始主叫号码 | 1000 |
