@@ -28,7 +28,7 @@
 
 | 参数名称 | 类型 | 参数说明 | 参数值举例 |
 | :--- | :--- | :--- | :--- |
-| &lt;extinfos&gt; | object | 对象 |  |
+| &lt;extinfos&gt; | object | 对象 | N/A |
 | &lt;extnumber&gt; | int | 分机号 | 1000 |
 | &lt;username&gt; | string | 用户名 | Ina Tang |
 | &lt;status&gt; | string | 分机当前状态 | Unavailable, Registered, Ringing, Busy, Hold, Malfunction, Idle, Fxsnoport |
@@ -71,7 +71,7 @@
 | &lt;from&gt; | string | 主叫号码 | 1000 |
 | &lt;to&gt; | string | 被叫号码 | 5003 |
 | &lt;trunk&gt; | string | 呼出时通过的中继名 | Sip-trunk |
-| \[ext\] | object | 内部分机互拨的通话方 |  |
+| \[ext\] | object | 内部分机互拨的通话方 | N/A |
 | &lt;extid&gt; | int | 和查询分机正在通话的分机号 | 1001 |
 
 **可能出现的错误码：**30001
